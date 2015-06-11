@@ -21,5 +21,17 @@
 <![endif]-->
 
 </head>
+
 <body class="fs-grid">
 <div id="wrapper">
+
+<header id="header">
+  <div class="fs-row">
+    <div class="fs-cell fs-lg-4 fs-md-2 fs-sm-3">
+      <a href="/" id="header--logo"><?php bloginfo('name' );?></a>
+    </div>
+  </div>
+</header>
+
+<div id="content-wrapper" class='fs-grid'>
+<div class="fs-cell fs-lg-11 fs-md-6 fs-sm-3">

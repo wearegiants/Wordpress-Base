@@ -1,5 +1,7 @@
 <?php Themewrangler::setup_page();get_header(); ?>
-<section id="content" role="main">
+
+<div class="fs-row">
+<section id="content" role="main" class="fs-cell fs-lg-8 fs-md-4 fs-sm-3">
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 <header class="header">
@@ -15,4 +17,6 @@
 <?php endwhile; endif; ?>
 </section>
 <?php get_sidebar(); ?>
+</div>
+
 <?php get_footer(); ?>

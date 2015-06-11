@@ -11,3 +11,14 @@
   add_action( 'init', 'register_my_menu' );
   add_theme_support( 'post-thumbnails' );
   add_theme_support( 'post-formats', array( 'quote', 'image' ) );
+
+  // Adding Widgets
+
+  register_sidebar( array(
+    'id'            => 'primary-widget-area',
+    'name'          => 'Primary Widget',
+    'before_widget' => '<div class="widget">',
+    'after_widget'  => '</div>',
+    'before_title'  => '<h2 class="rounded">',
+    'after_title'   => '</h2>',
+  ));

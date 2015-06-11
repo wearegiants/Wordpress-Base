@@ -6,7 +6,7 @@ require_once locate_template('/lib/default.php');
 require_once locate_template('/lib/themewrangler.class.php');
 require_once locate_template('/lib/slug.php' );
 include_once locate_template('/lib/advanced-custom-fields-pro/acf.php' );
-include_once locate_template('/lib/soil--new/soil.php' );
+include_once locate_template('/lib/soil/soil.php' );
 include_once locate_template('/lib/roots-rewrites-master/roots-rewrites.php' );
 include_once locate_template('/lib/opengraph/opengraph.php' );
 

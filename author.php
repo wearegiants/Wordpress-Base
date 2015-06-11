@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php Themewrangler::setup_page();get_header(); ?>
 <section id="content" role="main">
 <header class="header">
 <?php the_post(); ?>

@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php Themewrangler::setup_page();get_header(); ?>
 <section id="content" role="main">
 <header class="header">
 <h1 class="entry-title"><?php _e( 'Tag Archives: ', 'blankslate' ); ?><?php single_tag_title(); ?></h1>

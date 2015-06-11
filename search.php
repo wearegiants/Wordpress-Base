@@ -1,4 +1,4 @@
-<?php get_header(); ?>
+<?php Themewrangler::setup_page();get_header(); ?>
 <section id="content" role="main">
 <?php if ( have_posts() ) : ?>
 <header class="header">

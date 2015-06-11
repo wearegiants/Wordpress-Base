@@ -1,24 +1,25 @@
 <!DOCTYPE html>
-<html <?php language_attributes(); ?>>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
-<meta charset="<?php bloginfo( 'charset' ); ?>" />
-<meta name="viewport" content="width=device-width" />
-<title><?php wp_title( ' | ', true, 'right' ); ?></title>
-<link rel="stylesheet" type="text/css" href="<?php echo get_stylesheet_uri(); ?>" />
+<meta charset="utf-8">
+<title><?php bloginfo( 'sitename' ) ?></title>
+<meta name="description" content="<?php bloginfo( 'description' ) ?>">
+<link rel="shortcut icon" href="/assets/img/favicon.ico">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+<!--[if lt IE 9]>
+<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
 <?php wp_head(); ?>
+
+<!--[if lt IE 9]>
+<script src="/assets/js/app.ie.min.js"></script>
+<![endif]-->
+
 </head>
-<body <?php body_class(); ?>>
-<div id="wrapper" class="hfeed">
-<header id="header" role="banner">
-<section id="branding">
-<div id="site-title"><?php if ( ! is_singular() ) { echo '<h1>'; } ?><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php esc_attr_e( get_bloginfo( 'name' ), 'blankslate' ); ?>" rel="home"><?php echo esc_html( get_bloginfo( 'name' ) ); ?></a><?php if ( ! is_singular() ) { echo '</h1>'; } ?></div>
-<div id="site-description"><?php bloginfo( 'description' ); ?></div>
-</section>
-<nav id="menu" role="navigation">
-<div id="search">
-<?php get_search_form(); ?>
-</div>
-<?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>
-</nav>
-</header>
-<div id="container">
+<body class="fs-grid">
+<div id="wrapper">

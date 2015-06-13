@@ -10,7 +10,6 @@
   }
   add_action( 'init', 'register_my_menu' );
   add_theme_support( 'post-thumbnails' );
-  add_theme_support( 'post-formats', array( 'quote', 'image' ) );
 
   // Adding Widgets
 
@@ -19,6 +18,6 @@
     'name'          => 'Primary Widget',
     'before_widget' => '<div class="widget">',
     'after_widget'  => '</div>',
-    'before_title'  => '<h2 class="rounded">',
-    'after_title'   => '</h2>',
+    'before_title'  => '<h4 class="widget-title">',
+    'after_title'   => '</h4>',
   ));

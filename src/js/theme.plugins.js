@@ -17,3 +17,7 @@
 // @codekit-prepend "../bower_components/jquery.transit/jquery.transit.js"
 // @codekit-prepend "../bower_components/magnific-popup/dist/jquery.magnific-popup.min.js"
 // @codekit-prepend "../bower_components/headhesive.js/dist/headhesive.js"
+
+$(function(){
+  alert('yolo');
+});

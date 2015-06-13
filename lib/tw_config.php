@@ -15,8 +15,8 @@ $settings = array(
   ),
 
   'available_stylesheets'  => array(
-    'theme'                => array('/assets/css/theme.min.css'),
-    'vendor'               => array('/assets/css/vendor.min.css'),
+    'theme'                => array('/assets/css/site.theme.css'),
+    'vendor'               => array('/assets/css/site.plugins.css'),
   ),
 
   'default_stylesheets'    => array(

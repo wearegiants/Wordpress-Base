@@ -1,0 +1,15 @@
+{
+  "name": "roost",
+  "version": "1",
+  "authors": [
+    "Craig Fowler <craig@wearegiants.com>"
+  ],
+  "description": "roost theme",
+  "keywords": [
+    "roost",
+    "wordpress",
+    "theme"
+  ],
+  "license": "MIT",
+  "homepage": "http://wearegiants.com"
+}

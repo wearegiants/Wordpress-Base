@@ -20,6 +20,8 @@
 <script src="/assets/js/app.ie.min.js"></script>
 <![endif]-->
 
+<?php include locate_template('lib/config.fonts.php' ); ?>
+
 </head>
 
 <body class="fs-grid">
@@ -27,9 +29,12 @@
 
 <header id="header">
   <div class="fs-row">
-    <div class="fs-cell fs-lg-4 fs-md-2 fs-sm-3">
-      <a href="/" id="header--logo"><?php bloginfo('name' );?></a>
-    </div>
+    <menu class="header-main fs-cell fs-lg-4 fs-md-2 fs-sm-1">
+      <a href="/" id="header--logo" class="btn btn-logo btn-nav btn-first"><?php bloginfo('name' );?></a>
+    </menu>
+    <menu class="header-navigation fs-cell fs-lg-8 fs-md-4 fs-sm-2 text-right">
+      <?php echo strip_tags(wp_nav_menu( $mainMenu ), '<a>' ); ?>
+    </menu>
   </div>
 </header>
 

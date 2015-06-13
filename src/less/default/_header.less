@@ -5,12 +5,26 @@
   &--logo {
     margin: 0;
     font-weight: 700;
+    color: @mainColor;
+  }
+
+  &-navigation {
+
+    @media @min {
+      text-align: left;
+    }
+
+    @media @tablet {
+      text-align: right;
+    }
+
   }
 
   .menu {
 
     padding: 0;
     margin: 0;
+
 
     li {
 

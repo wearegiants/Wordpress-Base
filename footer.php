@@ -1,5 +1,4 @@
 </div>
-</div>
 <hr class="invisible">
 
 <footer id="footer">

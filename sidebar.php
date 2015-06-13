@@ -1,4 +1,6 @@
-<aside id="sidebar" role="complementary" class="fs-cell fs-lg-4 fs-md-2 fs-sm-3 fs-right">
+<?php include locate_template('/lib/config.general.php' ); ?>
+
+<aside id="sidebar" role="complementary" class="<?php echo $mainSidebar_width; ?>">
 <?php if ( is_active_sidebar( 'primary-widget-area' ) ) : ?>
 <div id="primary" class="widget-area">
 <ul class="xoxo">

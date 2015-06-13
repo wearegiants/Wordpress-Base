@@ -1,10 +1,8 @@
 <?php
 
-// Config
-
-require_once locate_template('/lib/config.menus.php');
-
 // Dependencies
+
+include_once locate_template('/lib/config.general.php' );
 
 require_once locate_template('/lib/default.php');
 require_once locate_template('/lib/themewrangler.class.php');

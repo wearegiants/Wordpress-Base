@@ -540,3 +540,21 @@ form input[type=search].btn-success.btn-default {
 .widget-area .xoxo {
   padding-left: 0;
 }
+#splash {
+  color: rgba(255, 255, 255, 0.5);
+  background: #333333;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+#splash--centered {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+}

@@ -3,7 +3,6 @@
 // Dependencies
 
 require_once ('lib/config.general.php' );
-require_once ('lib/angular.php');
 
 require_once ('lib/default.php');
 require_once ('lib/themewrangler.class.php');

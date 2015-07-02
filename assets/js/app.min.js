@@ -32,7 +32,7 @@ $(function(){
 					//console.log(p);
 					
 					if (items[i].image) {
-						var image = '<img src="' + items[i].image + '" alt="">';
+						var image = '<div class="fs-cell fs-all-half"><img class="img-responsive" src="' + items[i].image + '" alt=""></div>';
 					} else {
 						var image = '<img src="http://industrystandardny.com/wp-content/themes/industry-standard/images/image-20.jpg" alt="">';
 					}
@@ -47,7 +47,7 @@ $(function(){
 					
 					var price = (items[i].price / 100) * items[i].quantity;
 					
-					$('#items').append('<div class="item clearfix">' + image + '<div class="desc"><a href="http://shop.industrystandardny.com/products/' + items[i].handle + '">' + p.product.title + '</a><br /><span>' + p.product.options[0].name + ' ' + vartitle + '</span></div><div class="price">$' + price + '</div></div>');
+					$('#items').append('<div class="item fs-row clearfix">' + image + '<div class="desc fs-cell fs-all-half text-left"><a href="http://shop.industrystandardny.com/products/' + items[i].handle + '">' + p.product.title + '</a><br /><span>' + p.product.options[0].name + ' ' + vartitle + '</span></div><div class="price fs-cell fs-all-half text-left">$' + price + '</div></div>');
 					
 				});
 		

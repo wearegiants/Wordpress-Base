@@ -38,9 +38,8 @@
     </menu>
     <menu id="header-navigation" class="fs-cell fs-lg-8 fs-md-4 fs-sm-hide">
       <?php echo strip_tags(wp_nav_menu( $mainMenu ), '<a>' ); ?>
-      <a href="#">Cart <span id="mobile_bag"></span></a>
+      <?php include locate_template('parts/store/shopify--bag.php') ?>
     </menu>
-    <?php include locate_template('parts/store/shopify--bag.php') ?>
   </div>
 </header>
 

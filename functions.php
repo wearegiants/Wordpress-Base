@@ -2,29 +2,32 @@
 
 // Dependencies
 
-include_once locate_template('/lib/config.general.php' );
+require_once ('lib/config.general.php' );
+require_once ('lib/angular.php');
 
-require_once locate_template('/lib/default.php');
-require_once locate_template('/lib/themewrangler.class.php');
-require_once locate_template('/lib/slug.php' );
-include_once locate_template('/lib/advanced-custom-fields-pro/acf.php' );
-include_once locate_template('/lib/soil/soil.php' );
-include_once locate_template('/lib/roots-rewrites-master/roots-rewrites.php' );
-include_once locate_template('/lib/opengraph/opengraph.php' );
+require_once ('lib/default.php');
+require_once ('lib/themewrangler.class.php');
+require_once ('lib/slug.php' );
+
+include_once ('lib/advanced-custom-fields-pro/acf.php' );
+include_once ('lib/soil/soil.php' );
+include_once ('lib/roots-rewrites-master/roots-rewrites.php' );
+include_once ('lib/opengraph/opengraph.php' );
 
 // Includes
 
-add_filter('acf/settings/path', 'my_acf_settings_path');
 function my_acf_settings_path( $path ) {
   $path = get_stylesheet_directory() . '/lib/advanced-custom-fields-pro/';
   return $path;
 }
+add_filter('acf/settings/path', 'my_acf_settings_path');
 
-add_filter('acf/settings/dir', 'my_acf_settings_dir');
+
 function my_acf_settings_dir( $dir ) {
  $dir = get_stylesheet_directory_uri() . '/lib/advanced-custom-fields-pro/';
  return $dir;
 }
+add_filter('acf/settings/dir', 'my_acf_settings_dir');
 
 add_theme_support('soil-relative-urls');
 add_theme_support('soil-nice-search');

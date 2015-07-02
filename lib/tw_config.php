@@ -9,9 +9,9 @@ $settings = array(
   ),
 
   'default_scripts'        => array(
-    'jquery-g',
-    'plugins',
-    'scripts',
+    //'jquery-g',
+    //'plugins',
+    //'scripts',
   ),
 
   'available_stylesheets'  => array(

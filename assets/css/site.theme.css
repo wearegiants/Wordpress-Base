@@ -475,28 +475,32 @@ form input[type=search].btn-success.btn-default {
   background: none;
   box-shadow: inset 0 0 0 1px #74c080;
 }
-.error404 #wrapper {
-  height: 100%;
+#error {
+  position: relative;
 }
-.error404 #error-msg {
+@media screen and (min-width: 300px) {
+  #error {
+    height: 350px;
+  }
+}
+@media screen and (min-width: 740px) {
+  #error {
+    height: 600px;
+  }
+}
+@media screen and (min-width: 980px) {
+  #error {
+    height: 600px;
+  }
+}
+#error--centered {
   left: 50%;
   position: absolute;
   top: 50%;
   -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
-}
-.error404 #error-msg h1 {
-  font-size: 100px;
-  font-size: 6.25rem;
-  margin-bottom: 0;
-}
-.error404 #error-msg h3 {
-  color: #ffffff;
-}
-.error404 #error-msg h3 a,
-.error404 #error-msg h3 a:visited {
-  color: #cc1c4a;
+  width: 100%;
 }
 #header {
   padding: 25px 0;

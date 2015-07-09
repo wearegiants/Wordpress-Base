@@ -1,32 +1,22 @@
-.error404 {
+#error {
 
-  #wrapper {
-    height: 100%;
+  position: relative;
+
+  @media @min {
+    height: 350px;
   }
 
-  #error-msg {
+  @media @tablet {
+    height: 600px;
+  }
 
+  @media @desktop {
+    height: 600px;
+  }
+
+  &--centered {
     .center();
-
-    h1 {
-
-      .font_size(100);
-      margin-bottom: 0;
-
-    }
-
-    h3 {
-
-      color: @white;
-
-      a, a:visited {
-
-        color: @rb-red;
-
-      }
-
-    }
-
+    width: 100%;
   }
 
 }

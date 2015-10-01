@@ -287,6 +287,20 @@ form input[type=submit]-nav:last-child,
 form input[type=search]-nav:last-child {
   padding-right: 0;
 }
+form input[type=submit]-hamburg,
+form input[type=search]-hamburg {
+  position: relative;
+  width: 25px;
+}
+form input[type=submit]-hamburg img,
+form input[type=search]-hamburg img {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
 form input[type=submit].btn-lg,
 form input[type=search].btn-lg {
   font-size: 20px;
@@ -424,6 +438,18 @@ form input[type=search].btn-success.btn-default {
 }
 .btn-nav:last-child {
   padding-right: 0;
+}
+.btn-hamburg {
+  position: relative;
+  width: 25px;
+}
+.btn-hamburg img {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
 }
 .btn.btn-lg {
   font-size: 20px;

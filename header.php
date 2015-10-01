@@ -34,7 +34,7 @@
       <a href="/" id="header--logo" class="btn btn-logo btn-nav btn-first"><?php bloginfo('name' );?></a>
     </menu>
     <menu id="header-mobile" class="fs-cell fs-lg-hide fs-md-hide fs-sm-1 text-right">
-      <a href="#" class="btn btn-logo btn-nav btn-first">Menu</a>
+      <a href="#" class="btn btn-hamburg btn-nav btn-first"><img src="/assets/img/menu-black.svg" alt="Menu" class="img-responsive" /></a>
     </menu>
     <menu id="header-navigation" class="fs-cell fs-lg-8 fs-md-4 fs-sm-hide">
       <?php echo strip_tags(wp_nav_menu( $mainMenu ), '<a>' ); ?>

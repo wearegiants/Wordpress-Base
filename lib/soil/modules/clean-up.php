@@ -99,6 +99,9 @@ add_filter('language_attributes', __NAMESPACE__ . '\\language_attributes');
  */
 function clean_style_tag($input) {
   preg_match_all("!<link rel='stylesheet'\s?(id='[^']+')?\s+href='(.*)' type='text/css' media='(.*)' />!", $input, $matches);
+  if (empty($matches[2])) {
+    return $input;
+  }
   // Only display media if it is meaningful
   $media = $matches[3][0] !== '' && $matches[3][0] !== 'all' ? ' media="' . $matches[3][0] . '"' : '';
   return '<link rel="stylesheet" href="' . $matches[2][0] . '"' . $media . '>' . "\n";
@@ -118,12 +121,11 @@ add_filter('script_loader_tag', __NAMESPACE__ . '\\clean_script_tag');
  * Add and remove body_class() classes
  */
 function body_class($classes) {
-  // Add post/page slug if not present and template slug
+  // Add post/page slug if not present
   if (is_single() || is_page() && !is_front_page()) {
     if (!in_array(basename(get_permalink()), $classes)) {
       $classes[] = basename(get_permalink());
     }
-    $classes[] = str_replace('.php', '', basename(get_page_template()));
   }
 
   // Remove unnecessary classes

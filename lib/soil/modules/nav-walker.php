@@ -46,7 +46,7 @@ class NavWalker extends \Walker_Nav_Menu {
       }
     }
 
-    $element->is_active = strpos($this->archive, $element->url);
+    $element->is_active = (!empty($element->url) && strpos($this->archive, $element->url));
 
     if ($element->is_active) {
       $element->classes[] = 'active';
@@ -70,11 +70,14 @@ class NavWalker extends \Walker_Nav_Menu {
     $classes = preg_replace('/(current(-menu-|[-_]page[-_])(item|parent|ancestor))/', 'active', $classes);
     $classes = preg_replace('/^((menu|page)[-_\w+]+)+/', '', $classes);
 
-    $classes[] = 'menu-' . $slug;
+    $classes[] = 'menu-item menu-' . $slug;
 
     $classes = array_unique($classes);
 
-    return array_filter($classes, 'Roots\\Soil\\Utils\\is_element_empty');
+    return array_filter($classes, function ($element) {
+      $element = trim($element);
+      return !empty($element);
+    });
   }
 }
 

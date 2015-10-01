@@ -528,6 +528,16 @@ form input[type=search].btn-success.btn-default {
           transform: translate(-50%, -50%);
   width: 100%;
 }
+#mobile-menu {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  position: fixed;
+  background: #333333;
+  display: none;
+}
 #header {
   padding: 25px 0;
 }

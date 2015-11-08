@@ -568,7 +568,7 @@ form input[type=search].btn-success.btn-default {
   width: 100%;
   position: fixed;
   background: rgba(0, 0, 0, 0.9);
-  padding-top: 100px;
+  padding-top: 125px;
   display: none;
 }
 #mobile-menu.fs-swap-active {

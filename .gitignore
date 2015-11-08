@@ -5,10 +5,10 @@ Icon?
 Thumbs.db
 *.swp
 
-# Codekit
-config.codekit
-Gruntfile.js
-src/bower_components/Formstone/src/docs/
+# Node
+node_cache/*
+node_modules/*
+npm-debug.log
 
 # Editor
 .idea

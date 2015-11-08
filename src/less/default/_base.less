@@ -17,7 +17,6 @@
 
 // Elements
 
-
 body {
   .mainFont();
   -webkit-font-smoothing: antialiased;
@@ -45,14 +44,15 @@ h6 {
   .headerFont();
   color: darken(@textGray, 15%);
   line-height: inherit;
-  margin: 15px 0;
+  margin: 20px 0;
+  font-weight: 400;
 
   &:first-child {
     margin-top: 0;
   }
 
   a {
-    color: @mainColor;
+    text-decoration: none;
   }
 
 }
@@ -61,51 +61,29 @@ h6 {
 
 a {
   text-decoration: none;
-  color: darken(@textGray, 10%);
-  &:hover {
-    color: darken(@textGray, 20%)
-  }
-  &.underline {
-    border-bottom: 1px solid
-  }
+  color: inherit;
+  text-decoration: underline;
 }
 
 p {
-
   color: inherit;
   margin: 0 0 10px;
-  line-height: 1.6;
-
   &.emphasized {
     .font_size(20);
     margin: 15px 0;
   }
-
 }
-
-p a {
-
-  border-bottom: 1px solid #bbb;
-  color: @textGray;
-
-  .no-touch &:hover {
-
-  }
-}
-
 
 ol,
 ul {
-  margin: 0 0 25px 0;
-  padding: 0 0 0 25px;
+  margin: 0 0 20px 0;
+  padding: 0 0 0 20px;
 }
 
 li {
   position: relative;
   display: block;
-  line-height: 1.5;
-  margin: 5px 0 0;
-  color: @textGray;
+  color: inherit;
 
   a {
     color: inherit;
@@ -135,6 +113,12 @@ hr {
   margin: @spaced 0;
   &.thin {
     background: @lighterGray;
+  }
+  &.compact {
+    margin: @spaced/2 0;
+  }
+  &.big {
+    margin: @spaced*2 0;
   }
 }
 
@@ -178,6 +162,14 @@ textarea {
 menu {
   margin: 0;
   padding: 0;
+  .btn {
+    &:last-child {
+      padding-right: 0;
+    }
+    &:first-child {
+      padding-left: 0;
+    }
+  }
 }
 
 button {
@@ -188,85 +180,72 @@ button {
 
 // Form
 
-form label {
-  .font_size(14);
-  display: block;
-  margin: 0 0 5px;
-  font-weight: 500;
-}
+form {
 
-form input[type=text],
-form input[type=email],
-form input[type=password],
-form input[type=tel],
-form input[type=submit],
-form input[type=search],
-form textarea {
-  .font_size(20);
-  width: 100%;
-  border-radius: 2px;
-  border: 1px solid @lightGray;
-  box-shadow: none;
-  margin: 0 0 10px;
-  padding: 10px;
+  & label {
+    .font_size(14);
+    display: block;
+    margin: 0 0 5px;
+    font-weight: 500;
+  }
 
-  &:focus {
-    border: 1px solid @textGray;
+  & input[type=text],
+  & input[type=email],
+  & input[type=password],
+  & input[type=tel],
+  & input[type=url],
+  & textarea {
+    .buttons();
+    cursor: auto;
+    text-align: left;
+    width: 100%;
+    box-shadow: inset 0 0 0 1px darken(@bgGray, 5%);
+    margin: 0 0 10px;
+    &:focus {
+      box-shadow: inset 0 0 0 1px darken(@bgGray, 10%);
+    }
+  }
+  & textarea {
+    height: auto;
+    padding: 10px;
+    line-height: 1.3;
+    -webkit-font-smoothing: antialiased;
   }
 }
 
-form input[type=submit],
-form input[type=search] {
+select {
+  appearance: none;
+  -webkit-appearance: none;
   .btn();
-}
-
-.alert {
-
   .font_size(15);
-  background: @lighterGray;
-  color: @textGray;
-  display: block;
-  margin: 0 0 10px 0;
-  font-weight: 400;
-  border-radius: 3px;
-  padding: 8px 15px;
+  border-radius: 2px;
+  border: 1px solid darken(@bgGray, 5%);
+  padding-right: 2.5em;
+  background: url('/assets/img/icon--down.svg') center right .75em no-repeat;
+  background-size: 10px auto;
+  min-width: 150px;
+}
 
-  p {
-    margin: 0;
-    color: inherit;
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width:100%;
+  height:100%;
+  margin:0px;padding:0px;
+
+  tr:nth-child(odd)   { background-color: @bgGray; }
+  tr:nth-child(even)  { background-color: @white; }
+
+  tr td, tr th {
+    vertical-align:middle;
+    border:1px solid @lightGray;
+    text-align:left;
+    padding:7px;
+    font-weight: 400;
   }
 
-  &.alert-danger {
-    background: @error;
-    color: @white;
-  }
-
-  &.alert-success {
-    background: @success;
-    color: @white;
-  }
-
-}
-
-.text-left {
-  text-align: left;
-}
-
-.text-center {
-  text-align: center;
-}
-
-.text-right {
-  text-align: right;
-}
-
-.divider {
-
-  background: @lighterGray;
-
-  &.vertical {
-    width: 1px;
-    margin: auto;
+  tr th {
+    text-align: center;
   }
 
 }

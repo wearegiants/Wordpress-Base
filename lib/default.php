@@ -25,7 +25,7 @@
   // Add custom class to menu links
 
   function add_menuclass($ulclass) {
-    return preg_replace('/<a /', '<a class="btn btn-nav"', $ulclass);
+    return preg_replace('/<a /', '<a class="btn btn--nav"', $ulclass);
   }
 
   add_filter('wp_nav_menu','add_menuclass');

@@ -1,59 +1,109 @@
-.btn {
+@height_default: 40px;
+@height_nav:     70px;
 
-  //.button();
-
+.buttons() {
   cursor: pointer;
   display: inline-block;
   margin: 0 0 10px 0;
   text-align: center;
   user-select: none;
-  font-weight: 600;
-  border-radius: 3px;
-  height: 34px;
-  padding: 0 10px;
-  line-height: 34px;
+  font-weight: 300;
+  border-radius: 1px;
+  padding: 0 15px;
+  height: @height_default;
+  line-height: @height_default;
+  background: transparent;
+  -webkit-font-smoothing: antialiased;
+}
 
-  &.btn-default, &.epm-submit-chimp {
+button,
+input[type=submit],
+input[type=search],
+input[type=button] {
+  .buttons();
+  transition: background-color 300ms ease;
+  background: @textGray;
+  color: @white;  
+}
 
+.btn,
+.button {
+
+  .buttons();
+  transition: background-color 300ms ease;
+  background: @textGray;
+  color: @white;
+  text-decoration: none;
+
+  &:hover {
+    background: darken(@textGray, 5%);
+  }
+
+  &--default, &.epm-submit-chimp,  {
     box-shadow: inset 0 0 0 1px @lightGray;
     background: none;
-
     &:hover {
       background: @bgGray;
     }
-
   }
 
-  &.btn-first {
-    padding-left: 0;
-  }
-
-  &-nav {
+  &--nav {
     margin-bottom: 0;
     font-weight: 400;
-    height: 80px;
-    line-height: 80px;
-
-    &:first-child {
-      padding-left: 0;
+    height: @height_nav;
+    line-height: @height_nav;
+    background: transparent;
+    color: @textGray;
+    &:hover {
+      background: transparent;
     }
-
-    &:last-child {
-      padding-right: 0;
-    }
-
   }
 
-  &-hamburg {
-    position: relative;
-    width: @spaced;
-
-    img {
-      .center();
+  &--logo {
+    background: transparent;
+    font-weight: 400;
+    height: @height_nav;
+    line-height: @height_nav;
+    &:hover {
+      background: transparent;
+      text-decoration: none;
     }
-    &.fs-swap {
-      &-active {
-        background: @white;
+  }
+
+  &--hamburg {
+    position: relative;
+    padding-left: 1.5em!important;
+    &:before {
+      content: "";
+      position: absolute;
+      left: 0;
+      top: 50%;
+      margin-top: -5px;
+      width: 1em;
+      height: 1px;
+      background: @black25;
+      box-shadow: 
+        0 4px 0 0 @black25,
+        0 8px 0 0 @black25;
+    }
+    &.right {
+      padding-right: 1.5em!important;
+      padding-left: 0!important;
+      &:before {
+        display: none;
+      }
+      &:after {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 50%;
+        margin-top: -5px;
+        width: 1em;
+        height: 1px;
+        background: @black25;
+        box-shadow: 
+          0 0.25em 0 0 @black25,
+          0 0.5em 0 0 @black25;
       }
     }
   }
@@ -68,82 +118,20 @@
     .font_size(24);
     height: 50px;
     line-height: 50px;
+  } 
+
+  // Modifiers
+
+  &_first {
+    padding-left: 0;
   }
 
-  &.btn-lg {
-
-    .font_size(20);
-    font-weight: 400;
-    height: 44px;
-    padding: 0 25px;
-    line-height: 34px;
-
+  &_last {
+    padding-right: 0;
   }
 
-  &.btn-sm {
-
-    .font_size(12);
-    height: 44px;
-    padding: 0 25px;
-    line-height: 34px;
-
-  }
-
-  &.disabled {
-
-    background: @bgGray;
-    color: @lightGray;
-    box-shadow: inset 0 0 0 1px @lighterGray;
-    pointer-events: none;
-
-  }
-
-  &.btn-link {
-
-    box-shadow: inset 0 0 2px transparent;
-    text-decoration: underline;
-
-  }
-
-  &.btn-primary {
-
-    color: @white;
-    background: @textGray;
-
-    &:hover {
-      background: darken(@textGray, 10%);
-    }
-
-  }
-
-  &.btn-danger {
-
-    color: @white;
-    background: @error;
-
-    &.btn-default {
-
-      color: @error;
-      background: none;
-      box-shadow: inset 0 0 0 1px @error;
-
-    }
-
-  }
-
-  &.btn-success {
-
-    color: @white;
-    background: @success;
-
-    &.btn-default {
-
-      color: @success;
-      background: none;
-      box-shadow: inset 0 0 0 1px @success;
-
-    }
-
+  &_full {
+    width: 100%;
   }
 
 }

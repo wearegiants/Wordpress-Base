@@ -1,3 +1,14 @@
+### 3.6.2: December 24th, 2015
+* Add missing oEmbed cleanup ([#134](https://github.com/roots/soil/issues/134))
+
+### 3.6.1: December 24th, 2015
+* Remove `wp-embed.js` and `wp-json` from head ([#129](https://github.com/roots/soil/issues/129))
+
+### 3.6.0: November 18th, 2015
+* Add priority for loading modules (compatibility with Sage 8.3.0+)
+* Add core `menu-item-has-children` class on parent nav elements ([#127](https://github.com/roots/soil/issues/127))
+* Update sitemap conditional ([#126](https://github.com/roots/soil/issues/126))
+
 ### 3.5.0: September 24th, 2015
 * Disable nice search on advanced queries ([#115](https://github.com/roots/soil/issues/115))
 * Add `.menu-item` class to all items in walker ([#112](https://github.com/roots/soil/issues/112))

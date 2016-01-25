@@ -11,7 +11,7 @@ namespace Roots\Soil\CleanUp;
  * Remove inline CSS used by posts with galleries
  * Remove self-closing tag and change ''s to "'s on rel_canonical()
  *
- * You can enable/disable this feature in functions.php (or lib/config.php if you're using Sage):
+ * You can enable/disable this feature in functions.php (or lib/setup.php if you're using Sage):
  * add_theme_support('soil-clean-up');
  */
 function head_cleanup() {
@@ -31,6 +31,9 @@ function head_cleanup() {
   remove_action('admin_print_scripts', 'print_emoji_detection_script');
   remove_action('wp_print_styles', 'print_emoji_styles');
   remove_action('admin_print_styles', 'print_emoji_styles');
+  remove_action('wp_head', 'wp_oembed_add_discovery_links');
+  remove_action('wp_head', 'wp_oembed_add_host_js');
+  remove_action('wp_head', 'rest_output_link_wp_head', 10, 0);
   remove_filter('the_content_feed', 'wp_staticize_emoji');
   remove_filter('comment_text_rss', 'wp_staticize_emoji');
   remove_filter('wp_mail', 'wp_staticize_emoji_for_email');

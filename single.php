@@ -3,10 +3,15 @@
 <div class="fs-row">
 <section id="content" role="main" class="<?php echo $mainContent_width; ?>">
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-<?php get_template_part( 'entry' ); ?>
-<?php if ( ! post_password_required() ) comments_template( '', true ); ?>
+<article <?php post_class(); ?>>
+  <header>
+    <h1><?php the_title(); ?></h1>
+  </header>
+  <?php the_content(); ?>
+</article>
 <?php endwhile; endif; ?>
-<footer class="footer"><?php get_template_part( 'nav', 'below-single' ); ?></footer>
 </section>
 <?php get_sidebar(); ?>
 </div>
+
+<?php get_footer(); ?>

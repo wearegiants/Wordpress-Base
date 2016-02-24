@@ -4001,6 +4001,16 @@ form textarea {
   text-decoration: none;
   text-align: left;
 }
+form input[type=text]--primary:active,
+form input[type=email]--primary:active,
+form input[type=password]--primary:active,
+form input[type=tel]--primary:active,
+form input[type=url]--primary:active,
+form textarea--primary:active {
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px);
+  opacity: .9;
+}
 form input[type=text]--disabled,
 form input[type=email]--disabled,
 form input[type=password]--disabled,
@@ -4042,7 +4052,6 @@ form textarea--nav {
   height: 70px;
   line-height: 70px;
   background: transparent;
-  color: #666666;
 }
 @media screen and (min-width: 300px) {
   form input[type=text]--nav,
@@ -4275,6 +4284,13 @@ input[type=button] {
   -webkit-font-smoothing: antialiased;
   text-decoration: none;
 }
+.btn--primary:active,
+.button--primary:active,
+.epm-submit-chimp--primary:active {
+  -webkit-transform: translateY(1px);
+          transform: translateY(1px);
+  opacity: .9;
+}
 .btn--disabled,
 .button--disabled,
 .epm-submit-chimp--disabled {
@@ -4304,7 +4320,6 @@ input[type=button] {
   height: 70px;
   line-height: 70px;
   background: transparent;
-  color: #666666;
 }
 @media screen and (min-width: 300px) {
   .btn--nav,
@@ -4568,8 +4583,21 @@ input[type=button] {
     max-width: 650px;
   }
 }
-.header {
-  position: relative;
+.pinned {
+  width: 100%;
+  position: absolute;
+  z-index: 25;
+}
+.pinned--fixed {
+  position: fixed;
+  width: 100%;
+  z-index: 25;
+}
+.pinned__top {
+  top: 0;
+}
+.pinned__bottom {
+  bottom: 0;
 }
 .widget-title {
   margin-bottom: 5px;

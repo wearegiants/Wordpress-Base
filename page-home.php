@@ -12,7 +12,7 @@
 		<div class="fs-row">
 			<div class="fs-cell fs-all-full">
 				<h1 class="color--white"><?php the_title(); ?></h1>
-				<a href="#" class="btn bg--white color--black">Learn More</a>
+				<a href="#" class="btn btn--primary bg--white color--black">Learn More</a>
 			</div>
 		</div>
 	</div>

@@ -1,6 +1,13 @@
 @height_default: 40px;
 @height_nav:     70px;
 
+.animated(){
+  &:active {
+    transform: translateY(1px);
+    opacity: .9;
+  }
+}
+
 .buttons() {
   cursor: pointer;
   display: inline-block;
@@ -30,6 +37,10 @@ input[type=button] {
   .buttons();
   text-decoration: none;
 
+  &--primary {
+    .animated();
+  }
+
   &--disabled {
     background: @lightGray;
     pointer-events: none;
@@ -54,7 +65,6 @@ input[type=button] {
     height: @height_nav;
     line-height: @height_nav;
     background: transparent;
-    color: @textGray;
     @media @min {
       padding: 0 5px;
     }

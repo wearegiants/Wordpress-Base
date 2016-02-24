@@ -13,7 +13,7 @@
 			<div class="fs-cell fs-all-full color--white">
 				<span class="title title--xl title--bold">Surf Los Angeles</span><br>
 				<span class="title title--xl">Noon Goons</span><br><br>
-				<span class="accent">View Case Study</span>
+				<a href="#" class="btn btn--link accent">View Case Study</a>
 			</div>
 		</div>
 	</div>

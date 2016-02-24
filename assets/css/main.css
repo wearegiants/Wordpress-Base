@@ -4013,7 +4013,6 @@ h6 a {
 a {
   text-decoration: none;
   color: inherit;
-  text-decoration: underline;
 }
 p {
   color: inherit;
@@ -4176,7 +4175,10 @@ form textarea--link {
   background: transparent;
   color: inherit;
   padding: 0;
-  text-decoration: underline;
+  font-weight: normal;
+  border-bottom: 1px solid;
+  border-radius: 0;
+  margin: 0;
 }
 form input[type=text]--nav,
 form input[type=email]--nav,
@@ -4429,6 +4431,12 @@ table tr th {
 .title--xl {
   line-height: 1.2;
 }
+@media screen and (min-width: 300px) {
+  .title--xl {
+    font-size: 40px;
+    font-size: 2.5rem;
+  }
+}
 @media screen and (min-width: 740px) {
   .title--xl {
     font-size: 72px;
@@ -4500,7 +4508,10 @@ input[type=button] {
   background: transparent;
   color: inherit;
   padding: 0;
-  text-decoration: underline;
+  font-weight: normal;
+  border-bottom: 1px solid;
+  border-radius: 0;
+  margin: 0;
 }
 .btn--nav,
 .button--nav,

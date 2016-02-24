@@ -1873,8 +1873,8 @@ th {
   overflow: hidden;
   position: fixed;
   background: #000;
-  opacity: 0.5;
-  filter: alpha(opacity=50);
+  opacity: 0.25;
+  filter: alpha(opacity=25);
 }
 .mfp-wrap {
   top: 0;
@@ -4540,7 +4540,7 @@ input[type=button] {
 }
 @media screen and (min-width: 300px) {
   .hero--lg {
-    height: 500px;
+    height: 485px;
   }
 }
 @media screen and (min-width: 740px) {
@@ -4567,10 +4567,14 @@ input[type=button] {
 }
 .modal {
   margin: auto;
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+  position: relative;
 }
 @media screen and (min-width: 300px) {
   .modal {
-    max-width: 95%;
+    max-width: 90%;
   }
 }
 @media screen and (min-width: 740px) {
@@ -4582,6 +4586,27 @@ input[type=button] {
   .modal {
     max-width: 650px;
   }
+}
+.modal__title {
+  margin: 0;
+  margin-bottom: 25px;
+  line-height: 1;
+}
+.modal__close {
+  text-decoration: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  text-align: center;
+}
+.modal__close:before {
+  font-size: 20px;
+  font-size: 1.25rem;
+  position: relative;
+  top: .175em;
 }
 .pinned {
   width: 100%;

@@ -1,5 +1,8 @@
 <?php Themewrangler::setup_page();get_header(); ?>
-<section id="content" role="main">
+
+<div class="fs-row">
+<div class="fs-cell fs-all-full">
+
 <?php if ( have_posts() ) : ?>
 <header class="header">
 <h1 class="entry-title"><?php printf( __( 'Search Results for: %s', 'blankslate' ), get_search_query() ); ?></h1>
@@ -19,6 +22,8 @@
 </section>
 </article>
 <?php endif; ?>
-</section>
-<?php get_sidebar(); ?>
+
+</div>
+</div>
+
 <?php get_footer(); ?>

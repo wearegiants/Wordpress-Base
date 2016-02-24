@@ -9,7 +9,7 @@ $thumb_url = $thumb_url_array[0];
 
 <?php the_post(); ?>
 <article <?php post_class(); ?>>
-	<div class="hero hero relative bg--black" data-background-options='{"source":"<?php echo $thumb_url; ?>"}'></div>
+	<div class="hero hero relative bg--black wallpaper" data-background-options='{"source":"<?php echo $thumb_url; ?>"}'></div>
 	<hr class="invisible">
 	<header class="hentry__header">
 		<div class="fs-row">

@@ -9,7 +9,7 @@ $thumb_url = $thumb_url_array[0];
 
 <article <?php post_class(); ?>>
 	<header class="hentry__header text-center">
-		<div class="hero hero relative bg--black" data-background-options='{"source":"<?php echo $thumb_url; ?>"}'>
+		<div class="hero hero relative bg--black wallpaper" data-background-options='{"source":"<?php echo $thumb_url; ?>"}'>
 			<div class="centered">
 				<h1 class="hentry__title title--xl color--white"><?php the_title(); ?></h1>
 			</div>

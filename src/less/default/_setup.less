@@ -126,15 +126,18 @@ img.rounded {
 
 // Color Modifiers
 
-.bg--color {
-  &_black {
+.bg {
+  &--black {
     background: @black;
   }
-  &_white {
+  &--white {
     background: @white;
   }
-  &_gray {
+  &--gray, &--grey {
     background: @gray
+  }
+  &--bgGray {
+    background: @bgGray
   }
 }
 
@@ -198,3 +201,6 @@ img.rounded {
   }
 }
 
+.relative {
+  position: relative;
+}

@@ -28,7 +28,7 @@
 <body class="fs-grid">
 <div id="wrapper">
 
-<header id="header">
+<header id="header" class="header">
   <div class="fs-row">
     <menu id="header-main" class="fs-cell fs-lg-4 fs-md-2 fs-sm-2">
       <a href="/" id="header--logo" class="btn btn--logo btn--nav btn_first"><?php bloginfo('name' );?></a>

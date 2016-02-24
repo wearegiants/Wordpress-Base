@@ -6,13 +6,10 @@
   display: inline-block;
   margin: 0 0 10px 0;
   text-align: center;
-  user-select: none;
-  font-weight: 300;
-  border-radius: 1px;
-  padding: 0 15px;
+  border-radius: 2px;
+  padding: 0 20px;
   height: @height_default;
   line-height: @height_default;
-  background: transparent;
   -webkit-font-smoothing: antialiased;
 }
 
@@ -27,24 +24,28 @@ input[type=button] {
 }
 
 .btn,
-.button {
+.button,
+&.epm-submit-chimp {
 
   .buttons();
-  transition: background-color 300ms ease;
-  background: @textGray;
-  color: @white;
   text-decoration: none;
 
-  &:hover {
-    background: darken(@textGray, 5%);
+  &--disabled {
+    background: @lightGray;
+    pointer-events: none;
   }
 
-  &--default, &.epm-submit-chimp,  {
-    box-shadow: inset 0 0 0 1px @lightGray;
-    background: none;
-    &:hover {
-      background: @bgGray;
-    }
+  &--outlined {
+    background: transparent;
+    box-shadow: inset 0 0 0 1px @black;
+    color: @black;
+  }
+
+  &--link {
+    background: transparent;
+    color: inherit;
+    padding: 0;
+    text-decoration: underline;
   }
 
   &--nav {
@@ -54,8 +55,14 @@ input[type=button] {
     line-height: @height_nav;
     background: transparent;
     color: @textGray;
-    &:hover {
-      background: transparent;
+    @media @min {
+      padding: 0 5px;
+    }
+    @media @tablet {
+      padding: 0 10px;
+    }
+    @media @desktop {
+      padding: 0 15px;
     }
   }
 
@@ -122,15 +129,15 @@ input[type=button] {
 
   // Modifiers
 
-  &_first {
+  &__first {
     padding-left: 0;
   }
 
-  &_last {
+  &__last {
     padding-right: 0;
   }
 
-  &_full {
+  &__full {
     width: 100%;
   }
 

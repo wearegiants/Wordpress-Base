@@ -1508,6 +1508,127 @@
 .fs-checkbox-toggle .fs-checkbox-state_off {
   float: right;
 }
+/**
+	 * @class
+	 * @name .fs-background-element
+	 * @type element
+	 * @description Target elmement
+	 */
+/**
+	 * @class
+	 * @name .fs-background
+	 * @type element
+	 * @description Base widget class
+	 */
+.fs-background {
+  overflow: hidden;
+  position: relative;
+  /**
+		 * @class
+		 * @name .fs-background-container
+		 * @type element
+		 * @description Container element
+		 */
+  /**
+		 * @class
+		 * @name .fs-background-media
+		 * @type element
+		 * @description Media element
+		 */
+  /**
+		 * @class
+		 * @name .fs-background-media.fs-background-animated
+		 * @type modifier
+		 * @description Indicates animated state
+		 */
+  /**
+		 * @class
+		 * @name .fs-background-media.fs-background-navtive
+		 * @type modifier
+		 * @description Indicates native support
+		 */
+  /**
+		 * @class
+		 * @name .fs-background-media.fs-background-fixed
+		 * @type modifier
+		 * @description Indicates fixed positioning
+		 */
+  /**
+		 * @class
+		 * @name .fs-background-embed
+		 * @type element
+		 * @description Embed/iFrame element
+		 */
+  /**
+		 * @class
+		 * @name .fs-background-embed.fs-background-embed-ready
+		 * @type modifier
+		 * @description Indicates ready state
+		 */
+}
+.fs-background,
+.fs-background-container,
+.fs-background-media {
+  -webkit-transition: none;
+  transition: none;
+}
+.fs-background-container {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+  overflow: hidden;
+}
+.fs-background-media {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  opacity: 0;
+}
+.fs-background-media.fs-background-animated {
+  -webkit-transition: opacity 0.5s linear;
+  transition: opacity 0.5s linear;
+}
+.fs-background-media img,
+.fs-background-media video,
+.fs-background-media iframe {
+  width: 100%;
+  height: 100%;
+  display: block;
+  -webkit-user-drag: none;
+}
+.fs-background-media.fs-background-native,
+.fs-background-media.fs-background-fixed {
+  width: 100%;
+  height: 100%;
+}
+.fs-background-media.fs-background-native img,
+.fs-background-media.fs-background-fixed img {
+  display: none;
+}
+.fs-background-media.fs-background-native {
+  background-position: center;
+  background-size: cover;
+}
+.fs-background-media.fs-background-fixed {
+  background-position: center;
+  background-attachment: fixed;
+}
+.fs-background-embed.fs-background-ready:after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  content: '';
+}
+.fs-background-embed.fs-background-ready iframe {
+  z-index: 0;
+}
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /**
  * 1. Set default font family to sans-serif.
@@ -3814,6 +3935,21 @@ img.rounded {
 .relative {
   position: relative;
 }
+.centered {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  width: 100%;
+  z-index: 1;
+}
+.centered__bottom {
+  top: 65%;
+}
+.centered__top {
+  top: 35%;
+}
 *:link,
 *:visited,
 *:active,
@@ -3827,7 +3963,7 @@ img.rounded {
   outline: none;
 }
 body {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'PT Serif', serif;
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   color: #666666;
@@ -3852,12 +3988,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Roboto Condensed', sans-serif;
+  font-family: 'Karla', sans-serif;
   font-weight: 700;
   color: #404040;
   line-height: inherit;
-  margin: 20px 0;
-  font-weight: 400;
+  margin: 2% 0;
 }
 h1:first-child,
 h2:first-child,
@@ -3989,6 +4124,8 @@ form textarea {
   width: 100%;
   margin: 0 0 10px;
   background: #F2F2F2;
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
   cursor: pointer;
   display: inline-block;
   margin: 0 0 10px 0;
@@ -4229,6 +4366,8 @@ select {
   -moz-appearance: none;
        appearance: none;
   -webkit-appearance: none;
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
   cursor: pointer;
   display: inline-block;
   margin: 0 0 10px 0;
@@ -4275,10 +4414,36 @@ table tr th {
 table tr th {
   text-align: center;
 }
+.title--bold {
+  font-weight: bold;
+}
+.title--lg {
+  line-height: 1.2;
+}
+@media screen and (min-width: 740px) {
+  .title--lg {
+    font-size: 48px;
+    font-size: 3rem;
+  }
+}
+.title--xl {
+  line-height: 1.2;
+}
+@media screen and (min-width: 740px) {
+  .title--xl {
+    font-size: 72px;
+    font-size: 4.5rem;
+  }
+}
+.accent {
+  font-family: 'Karla', sans-serif;
+}
 button,
 input[type=submit],
 input[type=search],
 input[type=button] {
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
   cursor: pointer;
   display: inline-block;
   margin: 0 0 10px 0;
@@ -4296,6 +4461,8 @@ input[type=button] {
 .btn,
 .button,
 .epm-submit-chimp {
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
   cursor: pointer;
   display: inline-block;
   margin: 0 0 10px 0;
@@ -4590,13 +4757,20 @@ input[type=button] {
     height: 700px;
   }
 }
-.hero__centered {
-  left: 50%;
-  position: absolute;
-  top: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
-  width: 100%;
+@media screen and (min-width: 300px) {
+  .hero--xl {
+    height: 685px;
+  }
+}
+@media screen and (min-width: 740px) {
+  .hero--xl {
+    height: 928px;
+  }
+}
+@media screen and (min-width: 980px) {
+  .hero--xl {
+    height: 900px;
+  }
 }
 .hero__bg--covered {
   background-size: cover;
@@ -4660,6 +4834,9 @@ input[type=button] {
 }
 .pinned__bottom {
   bottom: 0;
+}
+.header--lg {
+  padding: 25px 0;
 }
 .widget-title {
   margin-bottom: 5px;

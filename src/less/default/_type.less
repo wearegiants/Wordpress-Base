@@ -1,12 +1,29 @@
 .title {
+
+	&--bold {
+		font-weight: bold;
+	}
   
   &--sm {}
   &--md {}
-  &--lg {}
+  &--lg {
+  	line-height: 1.2;
+  	@media @tablet {
+  		.font_size(48)
+  	}
+  }
+  &--xl {
+  	line-height: 1.2;
+  	@media @tablet {
+  		.font_size(72)
+  	}
+  }
 
 }
 
 .accent {
+
+	.accentFont();
 
   &--sm {}
   &--md {}

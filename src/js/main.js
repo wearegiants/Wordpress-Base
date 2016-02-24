@@ -1,4 +1,5 @@
 // @codekit-prepend "site/default-ui.js"
+// @codekit-prepend "site/hero.js"
 
 function mobileMenu(){
 	// Clone that thing

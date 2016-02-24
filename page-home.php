@@ -7,12 +7,13 @@
 
 ?>
 
-<div class="home__hero hero--lg hero__bg--covered bg--black relative" style="background-image: url(<?php echo $thumb_url; ?>);">
-	<div class="hero__centered">
+<div class="home__hero hero--wh wallpaper bg--black relative" data-background-options='{"source":"<?php echo $thumb_url; ?>"}'>
+	<div class="centered centered__bottom">
 		<div class="fs-row">
-			<div class="fs-cell fs-all-full">
-				<h1 class="color--white"><?php the_title(); ?></h1>
-				<a href="#" class="btn btn--primary bg--white color--black">Learn More</a>
+			<div class="fs-cell fs-all-full color--white">
+				<span class="title title--xl title--bold">Surf Los Angeles</span><br>
+				<span class="title title--xl">Noon Goons</span><br><br>
+				<span class="accent">View Case Study</span>
 			</div>
 		</div>
 	</div>

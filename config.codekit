@@ -5239,6 +5239,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/parts\/entry.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/parts\/entry.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/parts\/footer-mailchimp.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -5504,7 +5513,7 @@
 		},
 	"\/src\/bower_components\/Formstone\/dist\/js\/background.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/background.js",
 		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/min\/background-min.js",
@@ -6724,7 +6733,7 @@
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/background.less",
 		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/css\/background.css",
@@ -13181,6 +13190,17 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/src\/js\/site\/hero.js": {
+		"fileType": 64,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/js\/site\/hero.js",
+		"outputAbbreviatedPath": "\/src\/js\/site\/min\/hero-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
 	"\/src\/js\/site\/shopify--cart.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -13870,7 +13890,7 @@
 	"coffeeMinifyOutput": 1,
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
-	"externalServerAddress": "http:\/\/commune.dev",
+	"externalServerAddress": "http:\/\/roosttheme.dev",
 	"externalServerPreviewPathAddition": "",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathEnabled": 1,

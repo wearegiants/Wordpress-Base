@@ -34,7 +34,7 @@
       <a href="/" id="header--logo" class="btn btn--logo btn--nav btn_first <?php if(is_front_page()):?>color--white<?php endif; ?>"><?php bloginfo('name' );?></a>
     </menu>
     <menu id="header-mobile" class="fs-cell fs-lg-hide fs-md-hide fs-sm-1 text-right">
-      <a data-swap-target="#mobile-menu" class="mobile-toggle btn btn--hamburg right btn--nav btn_first btn_last">Menu</a>
+      <a data-swap-target="#mobile-menu" class="mobile-toggle btn btn--hamburg btn--hamburg__white btn--nav btn_first btn_last">&nbsp;</a>
     </menu>
     <menu id="header-navigation" class="fs-cell fs-lg-8 fs-md-4 fs-sm-hide text-right">
       <?php echo strip_tags(wp_nav_menu( $mainMenu ), '<a>' ); ?>

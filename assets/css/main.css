@@ -4128,6 +4128,29 @@ form textarea--hamburg:before {
   background: rgba(0, 0, 0, 0.25);
   box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.25), 0 8px 0 0 rgba(0, 0, 0, 0.25);
 }
+form input[type=text]--hamburg__white,
+form input[type=email]--hamburg__white,
+form input[type=password]--hamburg__white,
+form input[type=tel]--hamburg__white,
+form input[type=url]--hamburg__white,
+form textarea--hamburg__white {
+  color: #fff;
+}
+form input[type=text]--hamburg__white:after,
+form input[type=email]--hamburg__white:after,
+form input[type=password]--hamburg__white:after,
+form input[type=tel]--hamburg__white:after,
+form input[type=url]--hamburg__white:after,
+form textarea--hamburg__white:after,
+form input[type=text]--hamburg__white:before,
+form input[type=email]--hamburg__white:before,
+form input[type=password]--hamburg__white:before,
+form input[type=tel]--hamburg__white:before,
+form input[type=url]--hamburg__white:before,
+form textarea--hamburg__white:before {
+  background: #fff;
+  box-shadow: 0 4px 0 0 #fff, 0 8px 0 0 #fff;
+}
 form input[type=text]--hamburg.right,
 form input[type=email]--hamburg.right,
 form input[type=password]--hamburg.right,
@@ -4374,6 +4397,20 @@ input[type=button] {
   height: 1px;
   background: rgba(0, 0, 0, 0.25);
   box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.25), 0 8px 0 0 rgba(0, 0, 0, 0.25);
+}
+.btn--hamburg__white,
+.button--hamburg__white,
+.epm-submit-chimp--hamburg__white {
+  color: #fff;
+}
+.btn--hamburg__white:after,
+.button--hamburg__white:after,
+.epm-submit-chimp--hamburg__white:after,
+.btn--hamburg__white:before,
+.button--hamburg__white:before,
+.epm-submit-chimp--hamburg__white:before {
+  background: #fff;
+  box-shadow: 0 4px 0 0 #fff, 0 8px 0 0 #fff;
 }
 .btn--hamburg.right,
 .button--hamburg.right,

@@ -1,17 +1,33 @@
-<?php Themewrangler::setup_page();get_header(); ?>
+<?php 
 
-<div class="fs-row">
-<section id="content" role="main" class="<?php echo $mainContent_width; ?>">
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
+Themewrangler::setup_page();get_header(); 
+$thumb_id = get_post_thumbnail_id();
+$thumb_url_array = wp_get_attachment_image_src($thumb_id, 'gallery-lg', true);
+$thumb_url = $thumb_url_array[0];
+
+?>
+
+<?php the_post(); ?>
 <article <?php post_class(); ?>>
-  <header>
-    <h1><?php the_title(); ?></h1>
-  </header>
-  <?php the_content(); ?>
+	<div class="hero hero relative bg--black" data-background-options='{"source":"<?php echo $thumb_url; ?>"}'></div>
+	<hr class="invisible">
+	<header class="hentry__header">
+		<div class="fs-row">
+			<div class="fs-cell fs-lg-8 fs-md-5 fs-sm-3 fs-centered">
+				<div class="accent accent--sm"><?php the_breadcrumb(); ?></div>
+				<h1 class="hentry__title title--lg"><?php the_title(); ?></h1>
+				<div class="accent accent--sm">Words by <?php the_author(); ?>, posted on <?php the_date(); ?></div>
+			</div>
+		</div>
+	</header>
+	<hr class="invisible">
+	<div class="hentry__content">
+		<div class="fs-row">
+			<div class="fs-cell fs-lg-8 fs-md-5 fs-sm-3 fs-centered">
+				<?php the_content(); ?>
+			</div>
+		</div>
+	</div>
 </article>
-<?php endwhile; endif; ?>
-</section>
-<?php get_sidebar(); ?>
-</div>
 
 <?php get_footer(); ?>

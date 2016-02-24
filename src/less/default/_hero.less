@@ -1,18 +1,19 @@
 @hero__sm : 500px;
-@hero__md : 600px;
-@hero__lg : 700px;
+@hero     : 600px;
+@hero__md : 700px;
+@hero__lg : 815px;
 @hero__xl : 900px;
 
 .hero {
 
 	@media @min {
-		height: @hero__md - 200;
+		height: @hero - 200;
 	}
 	@media @tablet {
-		height: @hero__md - 100;
+		height: @hero - 100;
 	}
 	@media @desktop {
-		height: @hero__md
+		height: @hero
 	}
 
   &--sm {
@@ -25,6 +26,18 @@
   	@media @desktop {
   		height: @hero__sm
   	}
+  }
+
+  &--md {
+    @media @min {
+      height: @hero__md - 200;
+    }
+    @media @tablet {
+      height: @hero__md - 100;
+    }
+    @media @desktop {
+      height: @hero__md
+    }
   }
   
   &--lg {

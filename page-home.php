@@ -7,7 +7,7 @@
 
 ?>
 
-<div class="home__hero hero--wh wallpaper bg--black relative" data-background-options='{"source":"<?php echo $thumb_url; ?>"}'>
+<div class="home__hero hero hero--wh wallpaper bg--black relative" data-background-options='{"source":"<?php echo $thumb_url; ?>"}'>
 	<div class="centered centered__bottom">
 		<div class="fs-row">
 			<div class="fs-cell fs-all-full color--white">

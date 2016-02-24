@@ -7,6 +7,7 @@ require_once ('lib/config.general.php' );
 require_once ('lib/default.php');
 require_once ('lib/themewrangler.class.php');
 require_once ('lib/slug.php' );
+require_once ('lib/helpers.php' );
 
 include_once ('lib/advanced-custom-fields-pro/acf.php' );
 include_once ('lib/soil/soil.php' );

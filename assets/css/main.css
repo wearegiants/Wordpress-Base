@@ -4698,6 +4698,22 @@ input[type=button] {
   margin-top: 0!important;
   padding-bottom: 0!important;
 }
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
 #mobile-menu {
   height: 100%;
   left: 0;
@@ -4705,9 +4721,10 @@ input[type=button] {
   top: 0;
   width: 100%;
   position: fixed;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.75);
   padding-top: 125px;
   display: none;
+  z-index: 9;
 }
 #mobile-menu.fs-swap-active {
   display: block;
@@ -4743,18 +4760,33 @@ input[type=button] {
   }
 }
 @media screen and (min-width: 300px) {
-  .hero--lg {
-    height: 485px;
+  .hero--md {
+    height: 500px;
   }
 }
 @media screen and (min-width: 740px) {
-  .hero--lg {
+  .hero--md {
     height: 600px;
   }
 }
 @media screen and (min-width: 980px) {
-  .hero--lg {
+  .hero--md {
     height: 700px;
+  }
+}
+@media screen and (min-width: 300px) {
+  .hero--lg {
+    height: 600px;
+  }
+}
+@media screen and (min-width: 740px) {
+  .hero--lg {
+    height: 715px;
+  }
+}
+@media screen and (min-width: 980px) {
+  .hero--lg {
+    height: 815px;
   }
 }
 @media screen and (min-width: 300px) {
@@ -4837,6 +4869,11 @@ input[type=button] {
 }
 .header--lg {
   padding: 25px 0;
+}
+.hentry__content {
+  margin-bottom: 75px;
+  font-size: 18px;
+  font-size: 1.125rem;
 }
 .widget-title {
   margin-bottom: 5px;

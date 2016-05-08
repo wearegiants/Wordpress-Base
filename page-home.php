@@ -11,8 +11,8 @@
 	<div class="centered centered__bottom">
 		<div class="fs-row">
 			<div class="fs-cell fs-all-full color--white">
-				<span class="title title--xl title--bold">Surf Los Angeles</span><br>
-				<span class="title title--xl">Noon Goons</span><br><br>
+				<span class="title title--xl title--bold"><?php bloginfo( 'sitename' ) ?></span><br>
+				<span class="title title--xl"><?php bloginfo( 'description' ) ?></span><br><br>
 				<a href="#" class="btn btn--link accent">View Case Study</a>
 			</div>
 		</div>

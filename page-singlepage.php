@@ -1,6 +1,7 @@
 <?php 
 
-	Themewrangler::setup_page();get_header(/***Template Name: Single Page */); 
+	#Themewrangler::setup_page(true,'smartjax');get_header(/***Template Name: Single Page */); 
+	Themewrangler::setup_page(true,'smartajax|plugins|scripts');get_header(/***Template Name: Single Page */); 
 	$thumb_id = get_post_thumbnail_id();
 	$thumb_url_array = wp_get_attachment_image_src($thumb_id, 'gallery-lg', true);
 	$thumb_url = $thumb_url_array[0];

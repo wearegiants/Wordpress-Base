@@ -35,6 +35,7 @@ $wp_query->query($query);
 				</div>
 				<?php endwhile; ?>
 				<nav id="page-nav" class="fs-cell fs-all-full color--black">
+					<hr class="invisible">
 					<?php previous_posts_link('&laquo; Newer') ?>
 					<?php next_posts_link('Older &raquo;') ?>
 				</nav>

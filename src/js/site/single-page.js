@@ -31,13 +31,10 @@ function projectView(){
 		  ajaxContentAdded: function() {
 		  	$slide.addClass('is-viewing');
 		  	var mp 		= $.magnificPopup.instance,
-		  			url 	= this.currItem.src,
+		  			src 	= this.currItem.src,
 		  			t 		= $(mp.currItem.el[0]),
 		  			title = t.data('title');
-		  	//History.pushState(null, title, url);
-		  	//History.back(function(){
-		  	//	alert('yolo');
-		  	//});
+		  	//History.pushState(null, title, src);
 		  },
 		  beforeClose: function() {
 		  	$slide.removeClass('is-viewing');	

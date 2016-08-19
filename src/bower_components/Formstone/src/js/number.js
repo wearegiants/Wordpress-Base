@@ -44,8 +44,8 @@
 		data.disabled     = this.is(":disabled") || this.is("[readonly]");
 
 		var html = "";
-		html += '<button type="button" class="' + [RawClasses.arrow, RawClasses.up].join(" ") + '">'   + data.labels.up + '</button>';
-		html += '<button type="button" class="' + [RawClasses.arrow, RawClasses.down].join(" ") + '">' + data.labels.down + '</button>';
+		html += '<button type="button" class="' + [RawClasses.arrow, RawClasses.up].join(" ") + '" aria-hidden="true" tabindex="-1">'   + data.labels.up + '</button>';
+		html += '<button type="button" class="' + [RawClasses.arrow, RawClasses.down].join(" ") + '" aria-hidden="true" tabindex="-1">' + data.labels.down + '</button>';
 
 		// Modify DOM
 		this.wrap('<div class="' + [RawClasses.base, data.theme, data.customClass, (data.disabled) ? RawClasses.disabled : ""].join(" ") + '"></div>')
@@ -56,11 +56,13 @@
 		data.$arrows       = data.$container.find(Classes.arrow);
 
 		// Bind events
-		this.on(Events.keyPress, data, onKeyup)
-			.on(Events.focus, data, onFocus)
-			.on(Events.blur, data, onBlur);
+		this.on(Events.focus, data, onFocus)
+			.on(Events.blur, data, onBlur)
+			.on(Events.keyPress, data, onKeyup);
 
 		data.$container.on( [Events.touchStart, Events.mouseDown].join(" "), Classes.arrow, data, onPointerDown);
+
+		step(data, 0);
 	}
 
 	/**
@@ -112,6 +114,27 @@
 	}
 
 	/**
+	* @method
+	* @name update
+	* @description Updates instance.
+	* @example $(".target").number("update");
+	*/
+
+	function updateInstance(data) {
+		var min = parseFloat(data.$el.attr("min")),
+			max = parseFloat(data.$el.attr("max"));
+
+		data.min  = (min || min === 0) ? min : false;
+		data.max  = (max || max === 0) ? max : false;
+		data.step = parseFloat(data.$el.attr("step")) || 1;
+		data.timer        = null;
+		data.digits       = significantDigits(data.step);
+		data.disabled     = data.$el.is(":disabled") || data.$el.is("[readonly]");
+
+		step(data, 0);
+	}
+
+	/**
 	 * @method private
 	 * @name onFocus
 	 * @description Handles instance focus
@@ -130,6 +153,8 @@
 	 */
 
 	function onBlur(e) {
+		step(e.data, 0);
+
 		e.data.$container.removeClass(RawClasses.focus);
 	}
 
@@ -233,14 +258,14 @@
 			value = data.min;
 		}
 		if (data.max !== false && value > data.max) {
-			value -= data.step;
+			value = data.max;
 		}
 
 		if (value !== oValue) {
 			value = round(value, data.digits);
 
 			data.$el.val(value)
-					.trigger(Events.raw.change);
+					.trigger(Events.raw.change, [ true ]);
 		}
 	}
 
@@ -322,7 +347,8 @@
 				// Public Methods
 
 				enable        : enable,
-				disable       : disable
+				disable       : disable,
+				update        : updateInstance
 			}
 		}),
 

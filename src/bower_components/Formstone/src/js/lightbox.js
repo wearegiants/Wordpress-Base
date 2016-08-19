@@ -22,7 +22,7 @@
 	 */
 
 	function setup() {
-		$Body = Formstone.$body;
+		$Body  = Formstone.$body;
 		$Locks = $("html, body");
 
 		OnLoad = Formstone.window.location.hash.replace("#", "");
@@ -209,7 +209,7 @@
 				lightboxClasses.push(RawClasses.thumbnailed);
 			}
 
-			html += '<div class="' + lightboxClasses.join(" ") + '">';
+			html += '<div class="' + lightboxClasses.join(" ") + '" role="dialog" aria-label="lightbox" tabindex="-1">';
 			html += '<button type="button" class="' + RawClasses.close + '">' + Instance.labels.close + '</button>';
 			html += '<span class="' + RawClasses.loading_icon + '"></span>';
 			html += '<div class="' + RawClasses.container + '">';
@@ -328,8 +328,8 @@
 
 			// Bind events
 			$Window.on(Events.keyDown, onKeyDown);
-
-			$Body.on(Events.click, [Classes.overlay, Classes.close].join(", "), closeLightbox);
+			$Body.on(Events.click, [Classes.overlay, Classes.close].join(", "), closeLightbox)
+				 .on( [ Events.focus, Events.focusIn ].join(" "), onDocumentFocus);
 
 			if (Instance.gallery.active) {
 				Instance.$lightbox.on(Events.click, Classes.control, advanceGallery);
@@ -433,9 +433,12 @@
 				Instance.$container.off(Events.namespace);
 				$Window.off(Events.keyDown);
 				$Body.off(Events.namespace);
+				$Body.off(Events.namespace);
 
 				Instance.$overlay.remove();
 				Instance.$lightbox.remove();
+
+				Instance.$el.focus();
 
 				// Reset Instance
 				Instance = null;
@@ -468,6 +471,18 @@
 			});
 		}
 
+		if (Instance.$caption.html() === "") {
+			Instance.$caption.hide();
+			Instance.$lightbox.removeClass(RawClasses.has_caption);
+
+			if (!Instance.gallery.active) {
+				Instance.$tools.hide();
+			}
+		} else {
+			Instance.$caption.show();
+			Instance.$lightbox.addClass(RawClasses.has_caption);
+		}
+
 		Instance.$lightbox.fsTransition({
 			property: (Instance.contentHeight !== Instance.oldContentHeight) ? "height" : "width"
 		},
@@ -494,6 +509,9 @@
 				updateThumbnails();
 				positionThumbnails();
 			}
+
+			// Focus
+			Instance.$lightbox.focus();
 		});
 
 		if (!Instance.isMobile) {
@@ -701,14 +719,6 @@
 			}
 
 			Instance.$content.prepend(Instance.$imageContainer);
-
-			if (Instance.$caption.html() === "") {
-				Instance.$caption.hide();
-				Instance.$lightbox.removeClass(RawClasses.has_caption);
-			} else {
-				Instance.$caption.show();
-				Instance.$lightbox.addClass(RawClasses.has_caption);
-			}
 
 			// Size content to be sure it fits the viewport
 			sizeImage();
@@ -1093,14 +1103,14 @@
 				Instance.$controlBox.css({
 					width: Formstone.windowWidth
 				});
-				Instance.spacerHeight = Instance.$controls.outerHeight(true);
+				Instance.spacerHeight = Instance.$controls.outerHeight(true) + 10;
 			} else {
 				Instance.$tools.css({
 					width: Formstone.windowWidth
 				});
 				Instance.spacerHeight = Instance.$tools.outerHeight(true);
+				Instance.spacerHeight += Instance.$thumbnails.outerHeight(true) + 10;
 			}
-			Instance.spacerHeight = Instance.$thumbnails.outerHeight(true) + 10;
 
 			Instance.viewportHeight -= Instance.spacerHeight;
 
@@ -1531,6 +1541,23 @@
 		}
 
 		return false;
+	}
+
+	/**
+	 * @method private
+	 * @name onDocumentFocus
+	 * @description Hanle document focus
+	 * @param e [object] "Event data"
+	 */
+
+	function onDocumentFocus(e) {
+		var target = e.target;
+
+		if (!$.contains(Instance.$lightbox[0], target) && target !== Instance.$lightbox[0] && target !== Instance.$overlay[0]) {
+			Functions.killEvent(e);
+
+			Instance.$lightbox.focus();
+		}
 	}
 
 	/**

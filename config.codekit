@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "19115",
+"creatorBuild": "19127",
 "files": {
 	"\/404.php": {
 		"fileType": 8192,
@@ -172,6 +172,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/front-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/front-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/functions.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -258,6 +267,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/admin\/settings-tools.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/lib\/advanced-custom-fields-pro\/admin\/update-network.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/admin\/update-network.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -493,83 +511,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_2EA2CC_40x100.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 206,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_2EA2CC_40x100.png",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_2EA2CC_40x100.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_aaaaaa_40x100.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 212,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_aaaaaa_40x100.png",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_aaaaaa_40x100.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_E14D43_40x100.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 206,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_E14D43_40x100.png",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_E14D43_40x100.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_F0F0F0_40x100.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 230,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_F0F0F0_40x100.png",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_F0F0F0_40x100.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_F9F9F9_40x100.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 230,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_F9F9F9_40x100.png",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_F9F9F9_40x100.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_ffffff_40x100.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 208,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_ffffff_40x100.png",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_0_ffffff_40x100.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_75_ffffff_40x100.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 208,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_75_ffffff_40x100.png",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_flat_75_ffffff_40x100.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-bg_highlight-soft_0_ffffff_1x100.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -581,28 +522,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-icons_222222_256x240.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6922,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-icons_222222_256x240.png",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-icons_222222_256x240.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-icons_2EA2CC_256x240.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 4549,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-icons_2EA2CC_256x240.png",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-icons_2EA2CC_256x240.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-icons_444444_256x240.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -610,17 +529,6 @@
 		"initialSize": 6992,
 		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-icons_444444_256x240.png",
 		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-icons_444444_256x240.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-icons_454545_256x240.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 6992,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-icons_454545_256x240.png",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/images\/ui-icons_454545_256x240.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -647,115 +555,20 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/jquery-ui-1.10.4.custom.css": {
+	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/jquery-ui.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/jquery-ui-1.10.4.custom.css",
+		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/jquery-ui.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/jquery-ui-1.10.4.custom.min.css": {
+	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/jquery-ui.min.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/jquery-ui-1.10.4.custom.min.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/bower.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/bower.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/bower-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/component.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/component.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/component-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/composer.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/composer.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/composer-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/CONTRIBUTING.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/CONTRIBUTING.md",
-		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/CONTRIBUTING.html",
-		"outputFormat": 0,
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/package.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/package.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/package-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/README.md": {
-		"criticStyle": 0,
-		"enableFootnotes": 1,
-		"enableLabels": 1,
-		"enableSmartQuotes": 1,
-		"escapeLineBreaks": 0,
-		"fileType": 4096,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/README.md",
-		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/README.html",
-		"outputFormat": 0,
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"parseMetadata": 1,
-		"processHTML": 0,
-		"randomFootnoteNumbers": 0,
-		"useCompatibilityMode": 0
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2-bootstrap.css": {
-		"fileType": 16,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2-bootstrap.css",
+		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/datepicker\/jquery-ui.min.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -768,17 +581,6 @@
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2.jquery.json": {
-		"fileType": 524288,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2.jquery.json",
-		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2.jquery-min.json",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1
 		},
 	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2.js": {
 		"fileType": 64,
@@ -813,501 +615,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ar.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ar.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_ar-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_az.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_az.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_az-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_bg.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_bg.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_bg-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ca.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ca.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_ca-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_cs.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_cs.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_cs-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_da.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_da.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_da-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_de.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_de.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_de-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_el.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_el.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_el-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_es.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_es.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_es-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_et.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_et.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_et-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_eu.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_eu.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_eu-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_fa.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_fa.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_fa-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_fi.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_fi.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_fi-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_fr.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_fr.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_fr-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_gl.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_gl.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_gl-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_he.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_he.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_he-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_hr.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_hr.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_hr-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_hu.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_hu.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_hu-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_id.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_id.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_id-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_is.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_is.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_is-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_it.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_it.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_it-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ja.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ja.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_ja-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ka.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ka.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_ka-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ko.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ko.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_ko-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_lt.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_lt.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_lt-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_lv.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_lv.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_lv-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_mk.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_mk.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_mk-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ms.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ms.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_ms-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_nb.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_nb.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_nb-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_nl.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_nl.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_nl-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_pl.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_pl.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_pl-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_pt-BR.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_pt-BR.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_pt-BR-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_pt-PT.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_pt-PT.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_pt-PT-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ro.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ro.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_ro-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_rs.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_rs.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_rs-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ru.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ru.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_ru-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_sk.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_sk.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_sk-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_sv.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_sv.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_sv-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_th.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_th.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_th-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_tr.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_tr.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_tr-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ug-CN.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_ug-CN.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_ug-CN-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_uk.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_uk.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_uk-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_vi.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_vi.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_vi-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_zh-CN.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_zh-CN.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_zh-CN-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
-	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_zh-TW.js": {
-		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2_locale_zh-TW.js",
-		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/min\/select2_locale_zh-TW-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/select2\/select2x2.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1318,6 +625,46 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
+		},
+	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/timepicker\/jquery-ui-timepicker-addon.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/timepicker\/jquery-ui-timepicker-addon.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/timepicker\/jquery-ui-timepicker-addon.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/timepicker\/jquery-ui-timepicker-addon.js",
+		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/timepicker\/min\/jquery-ui-timepicker-addon-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
+		},
+	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/timepicker\/jquery-ui-timepicker-addon.min.css": {
+		"fileType": 16,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/timepicker\/jquery-ui-timepicker-addon.min.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/lib\/advanced-custom-fields-pro\/assets\/inc\/timepicker\/jquery-ui-timepicker-addon.min.js": {
+		"fileType": 64,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/timepicker\/jquery-ui-timepicker-addon.min.js",
+		"outputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/assets\/inc\/timepicker\/min\/jquery-ui-timepicker-addon.min-min.js",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 1,
+		"syntaxCheckerStyle": 1
 		},
 	"\/lib\/advanced-custom-fields-pro\/assets\/js\/acf-field-group.js": {
 		"fileType": 64,
@@ -1372,6 +719,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/lib\/advanced-custom-fields-pro\/core\/cache.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/core\/cache.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/lib\/advanced-custom-fields-pro\/core\/compatibility.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1386,6 +742,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/core\/field.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/lib\/advanced-custom-fields-pro\/core\/fields.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/core\/fields.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1462,6 +827,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/lib\/advanced-custom-fields-pro\/core\/updates.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/core\/updates.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/lib\/advanced-custom-fields-pro\/core\/validation.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1503,6 +877,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/fields\/date_picker.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/lib\/advanced-custom-fields-pro\/fields\/date_time_picker.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/fields\/date_time_picker.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1656,6 +1039,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/fields\/textarea.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/lib\/advanced-custom-fields-pro\/fields\/time_picker.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/fields\/time_picker.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1880,6 +1272,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/pro\/core\/updates.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/lib\/advanced-custom-fields-pro\/pro\/fields\/clone.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/lib\/advanced-custom-fields-pro\/pro\/fields\/clone.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2221,33 +1622,6 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/lib\/tw_config.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/page-home.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/page-home.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/page-project.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/page-project.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/page-singlepage.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/page-singlepage.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -4121,7 +3495,7 @@
 		"disableJavascript": 0,
 		"fileType": 1,
 		"ieCompatibility": 1,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/themes\/light.less",
 		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/css\/light.css",
@@ -11747,26 +11121,6 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/less\/default\/_error.less": {
-		"allowInsecureImports": 0,
-		"createSourceMap": 0,
-		"disableJavascript": 0,
-		"fileType": 1,
-		"ieCompatibility": 1,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/less\/default\/_error.less",
-		"outputAbbreviatedPath": "\/src\/less\/css\/_error.css",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 0,
-		"relativeURLS": 0,
-		"shouldRunAutoprefixer": 0,
-		"shouldRunBless": 0,
-		"strictImports": 0,
-		"strictMath": 0,
-		"strictUnits": 0
-		},
 	"\/src\/less\/default\/_fonts.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -12107,6 +11461,26 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
+	"\/src\/less\/formstone\/_carousel.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/less\/formstone\/_carousel.less",
+		"outputAbbreviatedPath": "\/src\/less\/css\/_carousel.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
 	"\/src\/less\/main.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
@@ -12127,7 +11501,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/less\/pages\/_singlepage.less": {
+	"\/src\/less\/pages\/_blog.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -12135,8 +11509,8 @@
 		"ieCompatibility": 1,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/less\/pages\/_singlepage.less",
-		"outputAbbreviatedPath": "\/src\/less\/css\/_singlepage.css",
+		"inputAbbreviatedPath": "\/src\/less\/pages\/_blog.less",
+		"outputAbbreviatedPath": "\/src\/less\/css\/_blog.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -12147,7 +11521,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/less\/pages\/_splash.less": {
+	"\/src\/less\/pages\/_error.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -12155,8 +11529,48 @@
 		"ieCompatibility": 1,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/less\/pages\/_splash.less",
-		"outputAbbreviatedPath": "\/src\/less\/css\/_splash.css",
+		"inputAbbreviatedPath": "\/src\/less\/pages\/_error.less",
+		"outputAbbreviatedPath": "\/src\/less\/css\/_error.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/src\/less\/pages\/_home.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/less\/pages\/_home.less",
+		"outputAbbreviatedPath": "\/src\/less\/css\/_home.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"relativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictMath": 0,
+		"strictUnits": 0
+		},
+	"\/src\/less\/pages\/_page.less": {
+		"allowInsecureImports": 0,
+		"createSourceMap": 0,
+		"disableJavascript": 0,
+		"fileType": 1,
+		"ieCompatibility": 1,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/src\/less\/pages\/_page.less",
+		"outputAbbreviatedPath": "\/src\/less\/css\/_page.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -12383,7 +11797,7 @@
 	"coffeeMinifyOutput": 1,
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
-	"externalServerAddress": "http:\/\/roost.dev",
+	"externalServerAddress": "http:\/\/new.theyachtclub.dev",
 	"externalServerPreviewPathAddition": "",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathEnabled": 1,

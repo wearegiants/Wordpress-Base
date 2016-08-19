@@ -33,6 +33,9 @@
 			if (data.multiple) {
 				html += ' multiple';
 			}
+			if (data.accept) {
+				html += ' accept="' + data.accept + '"';
+			}
 			html += '>';
 
 			data.baseClasses = [RawClasses.base, data.theme, data.customClass].join(" ");
@@ -53,7 +56,9 @@
 				.on(Events.dragLeave, data, onDragOut)
 				.on(Events.drop, data, onDrop);
 
-			data.$input.on(Events.change, data, onChange);
+			data.$input.on(Events.focus, data, onFocus)
+					   .on(Events.blur, data, onBlur)
+					   .on(Events.change, data, onChange);
 
 			enableUpload.call(this, data);
 		}
@@ -171,6 +176,28 @@
 		if (!data.disabled) {
 			data.$input.trigger(Events.click);
 		}
+	}
+
+	/**
+	 * @method private
+	 * @name onFocus
+	 * @description Handles instance focus
+	 * @param e [object] "Event data"
+	 */
+
+	function onFocus(e) {
+		e.data.$el.addClass(RawClasses.focus);
+	}
+
+	/**
+	 * @method private
+	 * @name onBlur
+	 * @description Handles instance blur
+	 * @param e [object] "Event data"
+	 */
+
+	function onBlur(e) {
+		e.data.$el.removeClass(RawClasses.focus);
 	}
 
 	/**
@@ -395,7 +422,7 @@
 
 	function uploadFile(data, formData, file) {
 		// Modify data before upload
-		formData = data.beforeSend.call(Window, formData, file);
+		formData = data.beforeSend.call(data.$el, formData, file);
 
 		if (file.size >= data.maxSize || formData === false || file.error === true) {
 			abortFile(data, file, (!formData ? "abort" : "size"));
@@ -461,6 +488,7 @@
 
 			/**
 			 * @options
+			 * @param accept [string] "Input accept attribute"
 			 * @param action [string] "Where to submit uploads"
 			 * @param autoUpload [boolean] <false> "Beging upload when files are dropped"
 			 * @param beforeSend [function] "Run before request sent, must return modified formdata or `false` to cancel"
@@ -477,6 +505,7 @@
 			 */
 
 			defaults: {
+				accept         : false,
 				action         : "",
 				autoUpload     : true,
 				beforeSend     : function(formdata) { return formdata; },
@@ -497,7 +526,8 @@
 				"target",
 				"multiple",
 				"dropping",
-				"disabled"
+				"disabled",
+				"focus"
 			],
 
 			methods: {

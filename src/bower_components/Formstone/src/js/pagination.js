@@ -27,17 +27,17 @@
 		var html = "";
 		html += '<button type="button" class="' + [RawClasses.control, RawClasses.control_previous].join(" ") + '">' + data.labels.previous + '</button>';
 		html += '<button type="button" class="' + [RawClasses.control, RawClasses.control_next].join(" ") + '">' + data.labels.next + '</button>';
-		html += '<div class="' + RawClasses.position + '">';
+		html += '<div class="' + RawClasses.position + '" aria-hidden="true">';
 		html += '<span class="' + RawClasses.current + '">0</span>';
 		html += ' ' + data.labels.count + ' ';
 		html += '<span class="' + RawClasses.total + '">0</span>';
 		html += '</div>';
-		html += '<select class="' + RawClasses.select + '" tab-index="-1"></select>';
+		html += '<select class="' + RawClasses.select + '" tabindex="-1" aria-hidden="true"></select>';
 
 		data.thisClasses = [RawClasses.base, data.theme, data.customClass];
 
 		this.addClass(data.thisClasses.join(" "))
-			.wrapInner('<div class="' + RawClasses.pages + '"></div>')
+			.wrapInner('<div class="' + RawClasses.pages + '" aria-label="pagination"></div>')
 			.prepend(html);
 
 		data.$controls  = this.find(Classes.control);
@@ -49,7 +49,10 @@
 
 		data.total = data.$items.length - 1;
 
-		var index = data.$items.index(data.$items.filter(Classes.active));
+		var index = data.$items.index(data.$items.filter("[data-" + Plugin.namespace + "-active]"));
+		if (!index) {
+			index = data.$items.index(data.$items.filter(Classes.active)); // reverse compat.
+		}
 
 		data.$items.eq(0)
 				   .addClass(RawClasses.first)
@@ -155,16 +158,15 @@
 	 */
 
 	function onPageClick(e) {
-		Functions.killEvent(e);
+		var data    = e.data,
+			$target = $(e.currentTarget),
+			index   = data.$items.index($target);
 
-		var data = e.data,
-			index = data.$items.index( $(e.currentTarget) );
-
-		/*
 		if (data.ajax) {
 			Functions.killEvent(e);
+		} else {
+			$target[0].click();
 		}
-		*/
 
 		updatePage(data, index);
 	}
@@ -224,6 +226,7 @@
 			}
 
 			data.$items.removeClass(RawClasses.visible)
+					   .removeClass(RawClasses.hidden)
 					   .filter(Classes.active)
 					   .removeClass(RawClasses.active)
 					   .end()
@@ -232,6 +235,8 @@
 					   .end()
 					   .slice(start, end)
 					   .addClass(RawClasses.visible);
+
+			data.$items.not(Classes.visible).addClass(RawClasses.hidden);
 
 			data.$position.find(Classes.current)
 						  .text(data.index + 1)
@@ -242,13 +247,13 @@
 			data.$select.val(data.index);
 
 			// controls
-			data.$controls.removeClass(Classes.disabled);
+			data.$controls.removeClass(RawClasses.visible);
 
-			if (index === 0) {
-				data.$controls.filter(Classes.control_previous).addClass(RawClasses.disabled);
+			if (index > 0) {
+				data.$controls.filter(Classes.control_previous).addClass(RawClasses.visible);
 			}
-			if (index === data.total) {
-				data.$controls.filter(Classes.control_next).addClass(RawClasses.disabled);
+			if (index < data.total) {
+				data.$controls.filter(Classes.control_next).addClass(RawClasses.visible);
 			}
 
 			// elipsis
@@ -334,8 +339,9 @@
 				"active",
 				"first",
 				"last",
-				"visible",
 				"ellipsis",
+				"visible",
+				"hidden",
 
 				"control",
 				"control_previous",

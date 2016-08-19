@@ -58,11 +58,11 @@
 		data.vertical = this.attr("orient") === "vertical" || data.vertical;
 		data.disabled = this.is(":disabled") || this.is("[readonly]");
 
-		html += '<div class="' + RawClasses.track + '">';
+		html += '<div class="' + RawClasses.track + '" aria-hidden="true">';
 		if (data.fill) {
 			html += '<span class="' + RawClasses.fill + '"></span>';
 		}
-		html += '<div class="' + RawClasses.handle + '">';
+		html += '<div class="' + RawClasses.handle + '" role="slider">';
 		html += '<span class="' + RawClasses.marker + '"></span>';
 		html += '</div>';
 		html += '</div>';
@@ -166,6 +166,28 @@
 
 			data.disabled = true;
 		}
+	}
+
+	/**
+	* @method
+	* @name update
+	* @description Updates instance.
+	* @example $(".target").range("update");
+	*/
+
+	function updateInstance(data) {
+		data.min       = parseFloat(data.$el.attr("min"))  || 0;
+		data.max       = parseFloat(data.$el.attr("max"))  || 100;
+		data.step      = parseFloat(data.$el.attr("step")) || 1;
+		data.digits    = data.step.toString().length - data.step.toString().indexOf(".");
+		data.value     = parseFloat(this.val()) || (data.min + ((data.max - data.min) / 2));
+
+		if (data.labels) {
+			data.$labels.filter(Classes.label_max).html( data.formatter.call(this, (data.labels.max) ? data.labels.max : data.max) );
+			data.$labels.filter(Classes.label_min).html( data.formatter.call(this, (data.labels.max) ? data.labels.min : data.min) );
+		}
+
+		resizeInstance.call(this, data);
 	}
 
 	/**
@@ -313,6 +335,7 @@
 
 		data.$fill.css((data.vertical) ? "height" : "width", (perc * 100) + "%");
 		data.$handle.css((data.vertical) ? "bottom" : "left", (perc * 100) + "%");
+/* 					.attr("aria-valuenow", value) */
 		value += data.min;
 
 		if (value !== data.value && value !== false && isResize !== true) {
@@ -418,7 +441,8 @@
 
 				enable        : enable,
 				disable       : disable,
-				resize        : resizeInstance
+				resize        : resizeInstance,
+				update        : updateInstance
 			}
 		}),
 

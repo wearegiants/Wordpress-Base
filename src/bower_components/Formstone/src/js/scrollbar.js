@@ -56,7 +56,7 @@
 
 		html += '<div class="' + RawClasses.bar + '">';
 		html += '<div class="' + RawClasses.track + '">';
-		html += '<span class="' + RawClasses.handle + '"></span>';
+		html += '<button type="button" class="' + RawClasses.handle + '" aria-hidden="true" tabindex="-1"></button>';
 		html += '</div></div>';
 
 		data.paddingRight     = parseInt(this.css("padding-right"), 10);
@@ -64,7 +64,7 @@
 		data.thisClasses      = [RawClasses.base, data.theme, data.customClass, (data.horizontal ? RawClasses.horizontal : "")];
 
 		this.addClass(data.thisClasses.join(" "))
-			.wrapInner('<div class="' + RawClasses.content + '" />')
+			.wrapInner('<div class="' + RawClasses.content + '" tabindex="0"></div>')
 			.prepend(html);
 
 		data.$content    = this.find(Classes.content);
@@ -73,6 +73,8 @@
 		data.$handle     = this.find(Classes.handle);
 
 		data.trackMargin = parseInt(data.trackMargin, 10);
+
+		// Events
 
 		data.$content.on(Events.scroll, data, onScroll);
 
@@ -103,12 +105,17 @@
 		data.$track.fsTouch("destroy");
 
 		data.$bar.remove();
+
 		data.$content.off(Events.namespace)
 					 .contents()
 					 .unwrap();
 
 		this.removeClass(data.thisClasses.join(" "))
 			.off(Events.namespace);
+
+		if (this.attr("id") === data.rawGuid) {
+			this.removeAttr("id");
+		}
 	}
 
 	/**
@@ -263,7 +270,7 @@
 		positionContent(data, handlePosition);
 
 		onScroll({
-			data    : data
+			data : data
 		});
 
 		data.$el.removeClass(RawClasses.setup);

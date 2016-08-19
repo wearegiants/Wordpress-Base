@@ -16,12 +16,41 @@
 
 	/**
 	 * @method private
+	 * @name setup
+	 * @description Setup plugin.
+	 */
+
+	function setup() {
+		scroll();
+		$Window.on("scroll", scroll);
+	}
+
+	/**
+	 * @method private
 	 * @name resize
 	 * @description Handles window resize
 	 */
 
-	function resize(windowWidth) {
+	function resize() {
 		Functions.iterate.call($Instances, resizeInstance);
+		Functions.iterate.call($LazyInstances, cacheScrollPosition);
+		Functions.iterate.call($LazyInstances, checkScrollPosition);
+	}
+
+	/**
+	 * @method private
+	 * @name scroll
+	 * @description Handles window scroll
+	 */
+
+	function scroll() {
+		ScrollTop = $Window.scrollTop() + Formstone.windowHeight;
+
+		if (ScrollTop < 0) {
+			ScrollTop = 0;
+		}
+
+		Functions.iterate.call($LazyInstances, checkScrollPosition);
 	}
 
 	/**
@@ -31,7 +60,10 @@
 	 */
 
 	function cacheInstances() {
-		$Instances = $(Classes.base);
+		$Instances     = $(Classes.base);
+		$LazyInstances = $(Classes.lazy);
+
+		Functions.iterate.call($LazyInstances, cacheScrollPosition);
 	}
 
 	/**
@@ -48,15 +80,23 @@
 		data.$container = $('<div class="' + RawClasses.container + '"></div>').appendTo(this);
 
 		data.thisClasses = [RawClasses.base, data.customClass];
+		data.visible = true;
+
+		if (data.lazy) {
+			data.visible = false;
+			data.thisClasses.push(RawClasses.lazy);
+		}
 
 		this.addClass(data.thisClasses.join(" "));
 
-		var source = data.source;
-		data.source = null;
-
-		loadMedia(data, source, true);
-
 		cacheInstances();
+
+		if (data.lazy) {
+			cacheScrollPosition(data);
+			checkScrollPosition(data);
+		} else {
+			loadInitialSource(data);
+		}
 	}
 
 	/**
@@ -73,6 +113,22 @@
 			.off(Events.namespace);
 
 		cacheInstances();
+	}
+
+	/**
+	 * @method private
+	 * @name loadInitialSource
+	 * @description Loads initial source.
+	 * @param data [object] "Instance data"
+	 */
+
+	function loadInitialSource(data) {
+		if (data.visible) {
+			var source = data.source;
+			data.source = null;
+
+			loadMedia(data, source, true);
+		}
 	}
 
 	/**
@@ -97,7 +153,7 @@
 
 	function loadMedia(data, source, firstLoad) {
 		// Check if the source is new
-		if (source !== data.source) {
+		if (source !== data.source && data.visible) {
 			data.source        = source;
 			data.responsive    = false;
 			data.isYouTube     = false;
@@ -150,7 +206,7 @@
 							cache.push({
 								width    : parseInt( keys[i] ),
 								url      : source[ keys[i] ],
-								mq       : window.matchMedia( "(min-width: " + parseInt( keys[i] ) + "px)" )
+								mq       : Window.matchMedia( "(min-width: " + parseInt( keys[i] ) + "px)" )
 							});
 						}
 					}
@@ -644,16 +700,18 @@
 	 */
 
 	function resizeInstance(data) {
-		if (data.responsive) {
-			var newSource = calculateSource(data);
+		if (data.visible) {
+			if (data.responsive) {
+				var newSource = calculateSource(data);
 
-			if (newSource !== data.currentSource) {
-				loadImage(data, newSource, false, true);
+				if (newSource !== data.currentSource) {
+					loadImage(data, newSource, false, true);
+				} else {
+					doResizeInstance(data);
+				}
 			} else {
 				doResizeInstance(data);
 			}
-		} else {
-			doResizeInstance(data);
 		}
 	}
 
@@ -720,6 +778,31 @@
 
 	/**
 	 * @method private
+	 * @name cacheScrollPosition
+	 * @description Cahce target scroll position
+	 * @param data [object] "Instance data"
+	 */
+
+	function cacheScrollPosition(data) {
+		data.scrollTop = data.$el.offset().top;
+	}
+
+	/**
+	 * @method private
+	 * @name checkScrollPosition
+	 * @description Check target scroll position against window
+	 * @param data [object] "Instance data"
+	 */
+
+	function checkScrollPosition(data) {
+		if (!data.visible && data.scrollTop < ScrollTop + data.lazyEdge) {
+			data.visible = true;
+			loadInitialSource(data);
+		}
+	}
+
+	/**
+	 * @method private
 	 * @name naturalSize
 	 * @description Determines natural size of target media
 	 * @param data [object] "Instance data"
@@ -778,6 +861,8 @@
 			 * @param autoPlay [boolean] <true> "Autoplay video"
 			 * @param customClass [string] <''> "Class applied to instance"
 			 * @param embedRatio [number] <1.777777> "Video / embed ratio (16/9)"
+			 * @param lazy [boolean] <false> "Lazy load with scroll"
+			 * @param lazyEdge [int] <100> "Lazy load edge"
 			 * @param loop [boolean] <true> "Loop video"
 			 * @param mute [boolean] <true> "Mute video"
 			 * @param source [string OR object] <null> "Source image (string or object) or video (object) or YouTube (object)"
@@ -787,6 +872,8 @@
 				autoPlay       : true,
 				customClass    : "",
 				embedRatio     : 1.777777,
+				lazy           : false,
+				lazyEdge       : 100,
 				loop           : true,
 				mute           : true,
 				source         : null,
@@ -800,7 +887,8 @@
 				"responsive",
 				"native",
 				"fixed",
-				"ready"
+				"ready",
+				"lazy"
 			],
 
 			/**
@@ -816,6 +904,7 @@
 			},
 
 			methods: {
+				_setup        : setup,
 				_construct    : construct,
 				_destruct     : destruct,
 				_resize       : resize,
@@ -838,7 +927,10 @@
 		Functions       = Plugin.functions,
 
 		Window          = Formstone.window,
+		$Window         = Formstone.$window,
+		ScrollTop       = 0,
 		$Instances      = [],
+		$LazyInstances  = [],
 
 		BGSupport       = ("backgroundSize" in Formstone.document.documentElement.style),
 		YouTubeReady    = false,

@@ -1321,15 +1321,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/lib\/config.general.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/config.general.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/lib\/config.menus.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1617,11 +1608,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/lib\/tw_config.php": {
+	"\/lib\/themewrangler.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/lib\/tw_config.php",
+		"inputAbbreviatedPath": "\/lib\/themewrangler.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -1736,18 +1727,18 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/bower.json": {
+	"\/src\/bower_components\/Formstone\/bower.json": {
 		"fileType": 524288,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/bower.json",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/bower.json",
 		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/bower-min.json",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/bower-min.json",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/CHANGELOG.md": {
+	"\/src\/bower_components\/Formstone\/CHANGELOG.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -1756,9 +1747,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/CHANGELOG.md",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/CHANGELOG.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/CHANGELOG.html",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/CHANGELOG.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -1768,415 +1759,415 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/src\/bower_components\/formstone\/dist\/css\/background.css": {
+	"\/src\/bower_components\/Formstone\/dist\/css\/background.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/css\/background.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/css\/background.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/dist\/css\/carousel.css": {
+	"\/src\/bower_components\/Formstone\/dist\/css\/carousel.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/css\/carousel.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/css\/carousel.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/dist\/css\/checkbox.css": {
+	"\/src\/bower_components\/Formstone\/dist\/css\/checkbox.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/css\/checkbox.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/css\/checkbox.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/dist\/css\/dropdown.css": {
+	"\/src\/bower_components\/Formstone\/dist\/css\/dropdown.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/css\/dropdown.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/css\/dropdown.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/dist\/css\/grid.css": {
+	"\/src\/bower_components\/Formstone\/dist\/css\/grid.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/css\/grid.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/css\/grid.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/dist\/css\/grid.ie.css": {
+	"\/src\/bower_components\/Formstone\/dist\/css\/grid.ie.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/css\/grid.ie.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/css\/grid.ie.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/dist\/css\/lightbox.css": {
+	"\/src\/bower_components\/Formstone\/dist\/css\/lightbox.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/css\/lightbox.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/css\/lightbox.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/dist\/css\/navigation.css": {
+	"\/src\/bower_components\/Formstone\/dist\/css\/navigation.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/css\/navigation.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/css\/navigation.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/dist\/css\/number.css": {
+	"\/src\/bower_components\/Formstone\/dist\/css\/number.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/css\/number.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/css\/number.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/dist\/css\/pagination.css": {
+	"\/src\/bower_components\/Formstone\/dist\/css\/pagination.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/css\/pagination.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/css\/pagination.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/dist\/css\/range.css": {
+	"\/src\/bower_components\/Formstone\/dist\/css\/range.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/css\/range.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/css\/range.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/dist\/css\/scrollbar.css": {
+	"\/src\/bower_components\/Formstone\/dist\/css\/scrollbar.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/css\/scrollbar.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/css\/scrollbar.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/dist\/css\/tabs.css": {
+	"\/src\/bower_components\/Formstone\/dist\/css\/tabs.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/css\/tabs.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/css\/tabs.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/dist\/css\/themes\/light.css": {
+	"\/src\/bower_components\/Formstone\/dist\/css\/themes\/light.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/css\/themes\/light.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/css\/themes\/light.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/dist\/css\/tooltip.css": {
+	"\/src\/bower_components\/Formstone\/dist\/css\/tooltip.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/css\/tooltip.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/css\/tooltip.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/dist\/css\/upload.css": {
+	"\/src\/bower_components\/Formstone\/dist\/css\/upload.css": {
 		"fileType": 16,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/css\/upload.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/css\/upload.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/dist\/js\/analytics.js": {
+	"\/src\/bower_components\/Formstone\/dist\/js\/analytics.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/analytics.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/min\/analytics-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/analytics.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/min\/analytics-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/dist\/js\/asap.js": {
+	"\/src\/bower_components\/Formstone\/dist\/js\/asap.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/asap.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/min\/asap-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/asap.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/min\/asap-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/dist\/js\/background.js": {
+	"\/src\/bower_components\/Formstone\/dist\/js\/background.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/background.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/min\/background-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/background.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/min\/background-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/dist\/js\/carousel.js": {
+	"\/src\/bower_components\/Formstone\/dist\/js\/carousel.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/carousel.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/min\/carousel-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/carousel.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/min\/carousel-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/dist\/js\/checkbox.js": {
+	"\/src\/bower_components\/Formstone\/dist\/js\/checkbox.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/checkbox.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/min\/checkbox-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/checkbox.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/min\/checkbox-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/dist\/js\/cookie.js": {
+	"\/src\/bower_components\/Formstone\/dist\/js\/cookie.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/cookie.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/min\/cookie-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/cookie.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/min\/cookie-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/dist\/js\/core.js": {
+	"\/src\/bower_components\/Formstone\/dist\/js\/core.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/core.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/min\/core-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/core.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/min\/core-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/dist\/js\/dropdown.js": {
+	"\/src\/bower_components\/Formstone\/dist\/js\/dropdown.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/dropdown.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/min\/dropdown-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/dropdown.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/min\/dropdown-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/dist\/js\/equalize.js": {
+	"\/src\/bower_components\/Formstone\/dist\/js\/equalize.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/equalize.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/min\/equalize-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/equalize.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/min\/equalize-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/dist\/js\/lightbox.js": {
+	"\/src\/bower_components\/Formstone\/dist\/js\/lightbox.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/lightbox.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/min\/lightbox-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/lightbox.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/min\/lightbox-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/dist\/js\/mediaquery.js": {
+	"\/src\/bower_components\/Formstone\/dist\/js\/mediaquery.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/mediaquery.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/min\/mediaquery-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/mediaquery.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/min\/mediaquery-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/dist\/js\/navigation.js": {
+	"\/src\/bower_components\/Formstone\/dist\/js\/navigation.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/navigation.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/min\/navigation-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/navigation.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/min\/navigation-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/dist\/js\/number.js": {
+	"\/src\/bower_components\/Formstone\/dist\/js\/number.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/number.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/min\/number-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/number.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/min\/number-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/dist\/js\/pagination.js": {
+	"\/src\/bower_components\/Formstone\/dist\/js\/pagination.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/pagination.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/min\/pagination-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/pagination.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/min\/pagination-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/dist\/js\/range.js": {
+	"\/src\/bower_components\/Formstone\/dist\/js\/range.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/range.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/min\/range-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/range.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/min\/range-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/dist\/js\/scrollbar.js": {
+	"\/src\/bower_components\/Formstone\/dist\/js\/scrollbar.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/scrollbar.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/min\/scrollbar-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/scrollbar.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/min\/scrollbar-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/dist\/js\/swap.js": {
+	"\/src\/bower_components\/Formstone\/dist\/js\/swap.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/swap.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/min\/swap-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/swap.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/min\/swap-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/dist\/js\/tabs.js": {
+	"\/src\/bower_components\/Formstone\/dist\/js\/tabs.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/tabs.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/min\/tabs-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/tabs.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/min\/tabs-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/dist\/js\/tooltip.js": {
+	"\/src\/bower_components\/Formstone\/dist\/js\/tooltip.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/tooltip.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/min\/tooltip-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/tooltip.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/min\/tooltip-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/dist\/js\/touch.js": {
+	"\/src\/bower_components\/Formstone\/dist\/js\/touch.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/touch.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/min\/touch-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/touch.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/min\/touch-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/dist\/js\/transition.js": {
+	"\/src\/bower_components\/Formstone\/dist\/js\/transition.js": {
 		"fileType": 64,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/transition.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/min\/transition-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/transition.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/min\/transition-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/dist\/js\/upload.js": {
+	"\/src\/bower_components\/Formstone\/dist\/js\/upload.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/upload.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/dist\/js\/min\/upload-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/upload.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/dist\/js\/min\/upload-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/Gruntfile.js": {
+	"\/src\/bower_components\/Formstone\/Gruntfile.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/Gruntfile.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/min\/Gruntfile-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/Gruntfile.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/min\/Gruntfile-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/package.json": {
+	"\/src\/bower_components\/Formstone\/package.json": {
 		"fileType": 524288,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/package.json",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/package.json",
 		"orderOutput": 0,
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/package-min.json",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/package-min.json",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/README.md": {
+	"\/src\/bower_components\/Formstone\/README.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -2185,9 +2176,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/README.md",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/README.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/README.html",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/README.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -2197,25 +2188,25 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/css\/grid.ie.css": {
+	"\/src\/bower_components\/Formstone\/src\/css\/grid.ie.css": {
 		"fileType": 16,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/css\/grid.ie.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/css\/grid.ie.css",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/analytics.html": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/analytics.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/analytics.html",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/analytics.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/analytics.md": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/analytics.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -2224,9 +2215,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/analytics.md",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/analytics.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/analytics.html",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/analytics.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -2236,16 +2227,16 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/asap.html": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/asap.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/asap.html",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/asap.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/asap.md": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/asap.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -2254,9 +2245,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/asap.md",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/asap.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/asap.html",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/asap.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -2266,16 +2257,16 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/background.html": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/background.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/background.html",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/background.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/background.md": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/background.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -2284,9 +2275,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/background.md",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/background.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/background.html",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/background.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -2296,16 +2287,16 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/carousel.html": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/carousel.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/carousel.html",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/carousel.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/carousel.md": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/carousel.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -2314,9 +2305,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/carousel.md",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/carousel.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/carousel.html",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/carousel.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -2326,16 +2317,16 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/checkbox.html": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/checkbox.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/checkbox.html",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/checkbox.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/checkbox.md": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/checkbox.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -2344,9 +2335,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/checkbox.md",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/checkbox.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/checkbox.html",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/checkbox.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -2356,16 +2347,16 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/cookie.html": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/cookie.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/cookie.html",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/cookie.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/cookie.md": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/cookie.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -2374,9 +2365,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/cookie.md",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/cookie.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/cookie.html",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/cookie.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -2386,16 +2377,16 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/core.html": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/core.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/core.html",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/core.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/core.md": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/core.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -2404,9 +2395,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/core.md",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/core.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/core.html",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/core.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -2416,16 +2407,16 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/dropdown.html": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/dropdown.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/dropdown.html",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/dropdown.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/dropdown.md": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/dropdown.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -2434,9 +2425,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/dropdown.md",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/dropdown.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/dropdown.html",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/dropdown.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -2446,16 +2437,16 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/equalize.html": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/equalize.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/equalize.html",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/equalize.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/equalize.md": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/equalize.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -2464,9 +2455,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/equalize.md",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/equalize.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/equalize.html",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/equalize.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -2476,16 +2467,16 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/grid.html": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/grid.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/grid.html",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/grid.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/grid.md": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/grid.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -2494,9 +2485,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/grid.md",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/grid.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/grid.html",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/grid.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -2506,16 +2497,16 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/lightbox.html": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/lightbox.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/lightbox.html",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/lightbox.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/lightbox.md": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/lightbox.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -2524,9 +2515,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/lightbox.md",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/lightbox.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/lightbox.html",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/lightbox.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -2536,16 +2527,16 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/mediaquery.html": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/mediaquery.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/mediaquery.html",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/mediaquery.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/mediaquery.md": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/mediaquery.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -2554,9 +2545,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/mediaquery.md",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/mediaquery.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/mediaquery.html",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/mediaquery.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -2566,16 +2557,16 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/navigation.html": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/navigation.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/navigation.html",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/navigation.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/navigation.md": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/navigation.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -2584,9 +2575,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/navigation.md",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/navigation.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/navigation.html",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/navigation.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -2596,16 +2587,16 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/number.html": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/number.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/number.html",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/number.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/number.md": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/number.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -2614,9 +2605,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/number.md",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/number.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/number.html",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/number.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -2626,16 +2617,16 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/pagination.html": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/pagination.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/pagination.html",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/pagination.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/pagination.md": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/pagination.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -2644,9 +2635,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/pagination.md",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/pagination.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/pagination.html",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/pagination.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -2656,16 +2647,16 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/range.html": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/range.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/range.html",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/range.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/range.md": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/range.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -2674,9 +2665,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/range.md",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/range.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/range.html",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/range.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -2686,16 +2677,16 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/scrollbar.html": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/scrollbar.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/scrollbar.html",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/scrollbar.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/scrollbar.md": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/scrollbar.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -2704,9 +2695,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/scrollbar.md",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/scrollbar.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/scrollbar.html",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/scrollbar.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -2716,16 +2707,16 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/swap.html": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/swap.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/swap.html",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/swap.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/swap.md": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/swap.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -2734,9 +2725,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/swap.md",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/swap.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/swap.html",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/swap.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -2746,16 +2737,16 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/tabs.html": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/tabs.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/tabs.html",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/tabs.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/tabs.md": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/tabs.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -2764,9 +2755,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/tabs.md",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/tabs.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/tabs.html",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/tabs.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -2776,16 +2767,16 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/tooltip.html": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/tooltip.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/tooltip.html",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/tooltip.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/tooltip.md": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/tooltip.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -2794,9 +2785,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/tooltip.md",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/tooltip.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/tooltip.html",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/tooltip.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -2806,16 +2797,16 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/touch.html": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/touch.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/touch.html",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/touch.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/touch.md": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/touch.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -2824,9 +2815,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/touch.md",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/touch.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/touch.html",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/touch.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -2836,16 +2827,16 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/transition.html": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/transition.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/transition.html",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/transition.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/transition.md": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/transition.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -2854,9 +2845,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/transition.md",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/transition.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/transition.html",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/transition.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -2866,16 +2857,16 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/upload.html": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/upload.html": {
 		"fileType": 8192,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/upload.html",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/upload.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/docs\/upload.md": {
+	"\/src\/bower_components\/Formstone\/src\/docs\/upload.md": {
 		"criticStyle": 0,
 		"enableFootnotes": 1,
 		"enableLabels": 1,
@@ -2884,9 +2875,9 @@
 		"fileType": 4096,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/upload.md",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/upload.md",
 		"maskEmailAddresses": 1,
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/docs\/upload.html",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/docs\/upload.html",
 		"outputFormat": 0,
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
@@ -2896,249 +2887,249 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/js\/analytics.js": {
+	"\/src\/bower_components\/Formstone\/src\/js\/analytics.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/analytics.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/min\/analytics-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/analytics.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/min\/analytics-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/src\/js\/asap.js": {
+	"\/src\/bower_components\/Formstone\/src\/js\/asap.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/asap.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/min\/asap-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/asap.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/min\/asap-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/src\/js\/background.js": {
+	"\/src\/bower_components\/Formstone\/src\/js\/background.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/background.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/min\/background-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/background.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/min\/background-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/src\/js\/carousel.js": {
+	"\/src\/bower_components\/Formstone\/src\/js\/carousel.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/carousel.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/min\/carousel-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/carousel.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/min\/carousel-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/src\/js\/checkbox.js": {
+	"\/src\/bower_components\/Formstone\/src\/js\/checkbox.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/checkbox.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/min\/checkbox-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/checkbox.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/min\/checkbox-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/src\/js\/cookie.js": {
+	"\/src\/bower_components\/Formstone\/src\/js\/cookie.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/cookie.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/min\/cookie-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/cookie.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/min\/cookie-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/src\/js\/core.js": {
+	"\/src\/bower_components\/Formstone\/src\/js\/core.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/core.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/min\/core-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/core.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/min\/core-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/src\/js\/dropdown.js": {
+	"\/src\/bower_components\/Formstone\/src\/js\/dropdown.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/dropdown.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/min\/dropdown-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/dropdown.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/min\/dropdown-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/src\/js\/equalize.js": {
+	"\/src\/bower_components\/Formstone\/src\/js\/equalize.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/equalize.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/min\/equalize-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/equalize.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/min\/equalize-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/src\/js\/lightbox.js": {
+	"\/src\/bower_components\/Formstone\/src\/js\/lightbox.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/lightbox.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/min\/lightbox-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/lightbox.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/min\/lightbox-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/src\/js\/mediaquery.js": {
+	"\/src\/bower_components\/Formstone\/src\/js\/mediaquery.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/mediaquery.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/min\/mediaquery-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/mediaquery.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/min\/mediaquery-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/src\/js\/navigation.js": {
+	"\/src\/bower_components\/Formstone\/src\/js\/navigation.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/navigation.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/min\/navigation-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/navigation.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/min\/navigation-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/src\/js\/number.js": {
+	"\/src\/bower_components\/Formstone\/src\/js\/number.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/number.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/min\/number-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/number.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/min\/number-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/src\/js\/pagination.js": {
+	"\/src\/bower_components\/Formstone\/src\/js\/pagination.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/pagination.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/min\/pagination-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/pagination.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/min\/pagination-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/src\/js\/range.js": {
+	"\/src\/bower_components\/Formstone\/src\/js\/range.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/range.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/min\/range-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/range.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/min\/range-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/src\/js\/scrollbar.js": {
+	"\/src\/bower_components\/Formstone\/src\/js\/scrollbar.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/scrollbar.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/min\/scrollbar-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/scrollbar.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/min\/scrollbar-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/src\/js\/swap.js": {
+	"\/src\/bower_components\/Formstone\/src\/js\/swap.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/swap.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/min\/swap-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/swap.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/min\/swap-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/src\/js\/tabs.js": {
+	"\/src\/bower_components\/Formstone\/src\/js\/tabs.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/tabs.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/min\/tabs-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/tabs.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/min\/tabs-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/src\/js\/tooltip.js": {
+	"\/src\/bower_components\/Formstone\/src\/js\/tooltip.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/tooltip.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/min\/tooltip-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/tooltip.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/min\/tooltip-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/src\/js\/touch.js": {
+	"\/src\/bower_components\/Formstone\/src\/js\/touch.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/touch.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/min\/touch-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/touch.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/min\/touch-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/src\/js\/transition.js": {
+	"\/src\/bower_components\/Formstone\/src\/js\/transition.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/transition.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/min\/transition-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/transition.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/min\/transition-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/src\/js\/upload.js": {
+	"\/src\/bower_components\/Formstone\/src\/js\/upload.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/upload.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/js\/min\/upload-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/upload.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/js\/min\/upload-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/background.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/background.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3146,8 +3137,8 @@
 		"ieCompatibility": 1,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/background.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/css\/background.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/background.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/css\/background.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3158,7 +3149,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/carousel.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/carousel.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3166,8 +3157,8 @@
 		"ieCompatibility": 1,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/carousel.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/css\/carousel.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/carousel.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/css\/carousel.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3178,7 +3169,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/checkbox.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/checkbox.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3186,8 +3177,8 @@
 		"ieCompatibility": 1,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/checkbox.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/css\/checkbox.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/checkbox.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/css\/checkbox.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3198,7 +3189,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/dropdown.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/dropdown.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3206,8 +3197,8 @@
 		"ieCompatibility": 1,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/dropdown.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/css\/dropdown.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/dropdown.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/css\/dropdown.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3218,7 +3209,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/equalize.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/equalize.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3226,8 +3217,8 @@
 		"ieCompatibility": 1,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/equalize.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/css\/equalize.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/equalize.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/css\/equalize.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3238,7 +3229,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/grid.ie.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/grid.ie.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3246,8 +3237,8 @@
 		"ieCompatibility": 1,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/grid.ie.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/css\/grid.ie.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/grid.ie.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/css\/grid.ie.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3258,7 +3249,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/grid.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/grid.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3266,8 +3257,8 @@
 		"ieCompatibility": 1,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/grid.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/css\/grid.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/grid.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/css\/grid.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3278,7 +3269,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/imports\/grid-config.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/imports\/grid-config.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3286,8 +3277,8 @@
 		"ieCompatibility": 1,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/imports\/grid-config.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/css\/grid-config.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/imports\/grid-config.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/css\/grid-config.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3298,7 +3289,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/imports\/grid-mixins.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/imports\/grid-mixins.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3306,8 +3297,8 @@
 		"ieCompatibility": 1,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/imports\/grid-mixins.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/css\/grid-mixins.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/imports\/grid-mixins.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/css\/grid-mixins.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3318,7 +3309,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/imports\/utils.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/imports\/utils.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3326,8 +3317,8 @@
 		"ieCompatibility": 1,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/imports\/utils.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/css\/utils.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/imports\/utils.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/css\/utils.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3338,7 +3329,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/lightbox.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/lightbox.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3346,8 +3337,8 @@
 		"ieCompatibility": 1,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/lightbox.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/css\/lightbox.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/lightbox.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/css\/lightbox.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3358,7 +3349,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/navigation.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/navigation.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3366,8 +3357,8 @@
 		"ieCompatibility": 1,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/navigation.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/css\/navigation.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/navigation.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/css\/navigation.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3378,7 +3369,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/number.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/number.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3386,8 +3377,8 @@
 		"ieCompatibility": 1,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/number.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/css\/number.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/number.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/css\/number.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3398,7 +3389,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/pagination.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/pagination.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3406,8 +3397,8 @@
 		"ieCompatibility": 1,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/pagination.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/css\/pagination.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/pagination.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/css\/pagination.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3418,7 +3409,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/range.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/range.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3426,8 +3417,8 @@
 		"ieCompatibility": 1,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/range.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/css\/range.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/range.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/css\/range.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3438,7 +3429,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/scrollbar.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/scrollbar.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3446,8 +3437,8 @@
 		"ieCompatibility": 1,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/scrollbar.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/css\/scrollbar.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/scrollbar.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/css\/scrollbar.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3458,7 +3449,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/swap.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/swap.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3466,8 +3457,8 @@
 		"ieCompatibility": 1,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/swap.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/css\/swap.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/swap.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/css\/swap.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3478,7 +3469,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/tabs.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/tabs.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3486,8 +3477,8 @@
 		"ieCompatibility": 1,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/tabs.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/css\/tabs.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/tabs.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/css\/tabs.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3498,7 +3489,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/themes\/light.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/themes\/light.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3506,8 +3497,8 @@
 		"ieCompatibility": 1,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/themes\/light.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/css\/light.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/themes\/light.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/css\/light.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3518,7 +3509,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/themes\/light\/_config.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/themes\/light\/_config.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3526,8 +3517,8 @@
 		"ieCompatibility": 1,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/themes\/light\/_config.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/themes\/css\/_config.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/themes\/light\/_config.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/themes\/css\/_config.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3538,7 +3529,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/themes\/light\/carousel.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/themes\/light\/carousel.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3546,8 +3537,8 @@
 		"ieCompatibility": 1,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/themes\/light\/carousel.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/themes\/css\/carousel.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/themes\/light\/carousel.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/themes\/css\/carousel.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3558,7 +3549,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/themes\/light\/checkbox.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/themes\/light\/checkbox.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3566,8 +3557,8 @@
 		"ieCompatibility": 1,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/themes\/light\/checkbox.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/themes\/css\/checkbox.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/themes\/light\/checkbox.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/themes\/css\/checkbox.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3578,7 +3569,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/themes\/light\/dropdown.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/themes\/light\/dropdown.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3586,8 +3577,8 @@
 		"ieCompatibility": 1,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/themes\/light\/dropdown.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/themes\/css\/dropdown.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/themes\/light\/dropdown.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/themes\/css\/dropdown.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3598,7 +3589,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/themes\/light\/lightbox.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/themes\/light\/lightbox.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3606,8 +3597,8 @@
 		"ieCompatibility": 1,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/themes\/light\/lightbox.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/themes\/css\/lightbox.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/themes\/light\/lightbox.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/themes\/css\/lightbox.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3618,7 +3609,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/themes\/light\/navigation.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/themes\/light\/navigation.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3626,8 +3617,8 @@
 		"ieCompatibility": 1,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/themes\/light\/navigation.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/themes\/css\/navigation.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/themes\/light\/navigation.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/themes\/css\/navigation.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3638,7 +3629,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/themes\/light\/number.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/themes\/light\/number.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3646,8 +3637,8 @@
 		"ieCompatibility": 1,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/themes\/light\/number.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/themes\/css\/number.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/themes\/light\/number.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/themes\/css\/number.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3658,7 +3649,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/themes\/light\/pagination.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/themes\/light\/pagination.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3666,8 +3657,8 @@
 		"ieCompatibility": 1,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/themes\/light\/pagination.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/themes\/css\/pagination.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/themes\/light\/pagination.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/themes\/css\/pagination.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3678,7 +3669,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/themes\/light\/range.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/themes\/light\/range.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3686,8 +3677,8 @@
 		"ieCompatibility": 1,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/themes\/light\/range.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/themes\/css\/range.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/themes\/light\/range.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/themes\/css\/range.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3698,7 +3689,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/themes\/light\/scrollbar.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/themes\/light\/scrollbar.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3706,8 +3697,8 @@
 		"ieCompatibility": 1,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/themes\/light\/scrollbar.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/themes\/css\/scrollbar.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/themes\/light\/scrollbar.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/themes\/css\/scrollbar.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3718,7 +3709,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/themes\/light\/tabs.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/themes\/light\/tabs.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3726,8 +3717,8 @@
 		"ieCompatibility": 1,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/themes\/light\/tabs.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/themes\/css\/tabs.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/themes\/light\/tabs.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/themes\/css\/tabs.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3738,7 +3729,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/themes\/light\/tooltip.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/themes\/light\/tooltip.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3746,8 +3737,8 @@
 		"ieCompatibility": 1,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/themes\/light\/tooltip.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/themes\/css\/tooltip.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/themes\/light\/tooltip.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/themes\/css\/tooltip.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3758,7 +3749,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/themes\/light\/upload.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/themes\/light\/upload.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3766,8 +3757,8 @@
 		"ieCompatibility": 1,
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/themes\/light\/upload.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/themes\/css\/upload.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/themes\/light\/upload.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/themes\/css\/upload.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3778,7 +3769,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/tooltip.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/tooltip.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3786,8 +3777,8 @@
 		"ieCompatibility": 1,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/tooltip.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/css\/tooltip.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/tooltip.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/css\/tooltip.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3798,7 +3789,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/touch.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/touch.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3806,8 +3797,8 @@
 		"ieCompatibility": 1,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/touch.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/css\/touch.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/touch.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/css\/touch.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3818,7 +3809,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/transition.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/transition.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3826,8 +3817,8 @@
 		"ieCompatibility": 1,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/transition.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/css\/transition.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/transition.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/css\/transition.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3838,7 +3829,7 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/src\/less\/upload.less": {
+	"\/src\/bower_components\/Formstone\/src\/less\/upload.less": {
 		"allowInsecureImports": 0,
 		"createSourceMap": 0,
 		"disableJavascript": 0,
@@ -3846,8 +3837,8 @@
 		"ieCompatibility": 1,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/less\/upload.less",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/src\/css\/upload.css",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/less\/upload.less",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/src\/css\/upload.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -3858,23 +3849,23 @@
 		"strictMath": 0,
 		"strictUnits": 0
 		},
-	"\/src\/bower_components\/formstone\/tasks\/docs.js": {
+	"\/src\/bower_components\/Formstone\/tasks\/docs.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/tasks\/docs.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/tasks\/min\/docs-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/tasks\/docs.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/tasks\/min\/docs-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/src\/bower_components\/formstone\/tasks\/license.js": {
+	"\/src\/bower_components\/Formstone\/tasks\/license.js": {
 		"fileType": 64,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/src\/bower_components\/formstone\/tasks\/license.js",
-		"outputAbbreviatedPath": "\/src\/bower_components\/formstone\/tasks\/min\/license-min.js",
+		"inputAbbreviatedPath": "\/src\/bower_components\/Formstone\/tasks\/license.js",
+		"outputAbbreviatedPath": "\/src\/bower_components\/Formstone\/tasks\/min\/license-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
@@ -11806,7 +11797,7 @@
 	"coffeeMinifyOutput": 1,
 	"coffeeOutputStyle": 0,
 	"coffeeSyntaxCheckerStyle": 1,
-	"externalServerAddress": "http:\/\/new.theyachtclub.dev",
+	"externalServerAddress": "http:\/\/sewcal.dev",
 	"externalServerPreviewPathAddition": "",
 	"genericWebpageFileExtensionsString": "html, htm, shtml, shtm, xhtml, php, jsp, asp, aspx, erb, ctp",
 	"hamlAutoOutputPathEnabled": 1,

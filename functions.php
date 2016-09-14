@@ -2,17 +2,13 @@
 
 // Dependencies
 
-require_once ('lib/config.general.php' );
-
 require_once ('lib/default.php');
 require_once ('lib/themewrangler.class.php');
 require_once ('lib/slug.php' );
 require_once ('lib/helpers.php' );
-
-include_once ('lib/advanced-custom-fields-pro/acf.php' );
-include_once ('lib/soil/soil.php' );
-include_once ('lib/roots-rewrites-master/roots-rewrites.php' );
-//include_once ('lib/opengraph/opengraph.php' );
+require_once ('lib/advanced-custom-fields-pro/acf.php' );
+require_once ('lib/soil/soil.php' );
+require_once ('lib/roots-rewrites-master/roots-rewrites.php' );
 
 // Includes
 
@@ -49,6 +45,4 @@ remove_action( 'admin_print_styles', 'print_emoji_styles' );
 
 // Theme Wrangler
 
-include_once locate_template('/lib/tw_config.php' );
-
-?>
+include_once locate_template('/lib/themewrangler.php' );

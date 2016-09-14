@@ -5611,29 +5611,49 @@ form textarea-mobile {
   height: 50px;
   line-height: 50px;
 }
-form input[type=text]__first,
-form input[type=email]__first,
-form input[type=password]__first,
-form input[type=tel]__first,
-form input[type=url]__first,
-form textarea__first {
+form input[type=text]--first,
+form input[type=email]--first,
+form input[type=password]--first,
+form input[type=tel]--first,
+form input[type=url]--first,
+form textarea--first {
   padding-left: 0;
 }
-form input[type=text]__last,
-form input[type=email]__last,
-form input[type=password]__last,
-form input[type=tel]__last,
-form input[type=url]__last,
-form textarea__last {
+form input[type=text]--last,
+form input[type=email]--last,
+form input[type=password]--last,
+form input[type=tel]--last,
+form input[type=url]--last,
+form textarea--last {
   padding-right: 0;
 }
-form input[type=text]__full,
-form input[type=email]__full,
-form input[type=password]__full,
-form input[type=tel]__full,
-form input[type=url]__full,
-form textarea__full {
+form input[type=text]--full,
+form input[type=email]--full,
+form input[type=password]--full,
+form input[type=tel]--full,
+form input[type=url]--full,
+form textarea--full {
   width: 100%;
+}
+form input[type=text][class*=" ss-"]:before,
+form input[type=email][class*=" ss-"]:before,
+form input[type=password][class*=" ss-"]:before,
+form input[type=tel][class*=" ss-"]:before,
+form input[type=url][class*=" ss-"]:before,
+form textarea[class*=" ss-"]:before {
+  position: relative;
+  top: .125em;
+  margin-right: 5px;
+}
+form input[type=text][class*=" ss-"]:after,
+form input[type=email][class*=" ss-"]:after,
+form input[type=password][class*=" ss-"]:after,
+form input[type=tel][class*=" ss-"]:after,
+form input[type=url][class*=" ss-"]:after,
+form textarea[class*=" ss-"]:after {
+  position: relative;
+  top: .125em;
+  margin-left: 5px;
 }
 select {
   -moz-appearance: none;
@@ -5738,8 +5758,7 @@ input[type=button] {
   color: #fff;
 }
 .btn,
-.button,
-.epm-submit-chimp {
+.button {
   font-family: 'Karla', sans-serif;
   font-weight: 700;
   cursor: pointer;
@@ -5754,28 +5773,24 @@ input[type=button] {
   text-decoration: none;
 }
 .btn--primary:active,
-.button--primary:active,
-.epm-submit-chimp--primary:active {
+.button--primary:active {
   -webkit-transform: translateY(1px);
           transform: translateY(1px);
   opacity: .9;
 }
 .btn--disabled,
-.button--disabled,
-.epm-submit-chimp--disabled {
+.button--disabled {
   background: #CBCBD2;
   pointer-events: none;
 }
 .btn--outlined,
-.button--outlined,
-.epm-submit-chimp--outlined {
+.button--outlined {
   background: transparent;
   box-shadow: inset 0 0 0 1px #111;
   color: #111;
 }
 .btn--link,
-.button--link,
-.epm-submit-chimp--link {
+.button--link {
   background: transparent;
   color: inherit;
   padding: 0;
@@ -5785,8 +5800,7 @@ input[type=button] {
   margin: 0;
 }
 .btn--nav,
-.button--nav,
-.epm-submit-chimp--nav {
+.button--nav {
   margin-bottom: 0;
   font-weight: 400;
   height: 70px;
@@ -5795,48 +5809,41 @@ input[type=button] {
 }
 @media screen and (min-width: 300px) {
   .btn--nav,
-  .button--nav,
-  .epm-submit-chimp--nav {
+  .button--nav {
     padding: 0 5px;
   }
 }
 @media screen and (min-width: 740px) {
   .btn--nav,
-  .button--nav,
-  .epm-submit-chimp--nav {
+  .button--nav {
     padding: 0 10px;
   }
 }
 @media screen and (min-width: 980px) {
   .btn--nav,
-  .button--nav,
-  .epm-submit-chimp--nav {
+  .button--nav {
     padding: 0 15px;
   }
 }
 .btn--logo,
-.button--logo,
-.epm-submit-chimp--logo {
+.button--logo {
   background: transparent;
   font-weight: 400;
   height: 70px;
   line-height: 70px;
 }
 .btn--logo:hover,
-.button--logo:hover,
-.epm-submit-chimp--logo:hover {
+.button--logo:hover {
   background: transparent;
   text-decoration: none;
 }
 .btn--hamburg,
-.button--hamburg,
-.epm-submit-chimp--hamburg {
+.button--hamburg {
   position: relative;
   padding-left: 1.5em!important;
 }
 .btn--hamburg:before,
-.button--hamburg:before,
-.epm-submit-chimp--hamburg:before {
+.button--hamburg:before {
   content: "";
   position: absolute;
   left: 0;
@@ -5848,33 +5855,27 @@ input[type=button] {
   box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.25), 0 8px 0 0 rgba(0, 0, 0, 0.25);
 }
 .btn--hamburg__white,
-.button--hamburg__white,
-.epm-submit-chimp--hamburg__white {
+.button--hamburg__white {
   color: #fff;
 }
 .btn--hamburg__white:after,
 .button--hamburg__white:after,
-.epm-submit-chimp--hamburg__white:after,
 .btn--hamburg__white:before,
-.button--hamburg__white:before,
-.epm-submit-chimp--hamburg__white:before {
+.button--hamburg__white:before {
   background: #fff;
   box-shadow: 0 4px 0 0 #fff, 0 8px 0 0 #fff;
 }
 .btn--hamburg.right,
-.button--hamburg.right,
-.epm-submit-chimp--hamburg.right {
+.button--hamburg.right {
   padding-right: 1.5em!important;
   padding-left: 0!important;
 }
 .btn--hamburg.right:before,
-.button--hamburg.right:before,
-.epm-submit-chimp--hamburg.right:before {
+.button--hamburg.right:before {
   display: none;
 }
 .btn--hamburg.right:after,
-.button--hamburg.right:after,
-.epm-submit-chimp--hamburg.right:after {
+.button--hamburg.right:after {
   content: "";
   position: absolute;
   right: 0;
@@ -5886,8 +5887,7 @@ input[type=button] {
   box-shadow: 0 0.25em 0 0 rgba(0, 0, 0, 0.25), 0 0.5em 0 0 rgba(0, 0, 0, 0.25);
 }
 .btn-mobile,
-.button-mobile,
-.epm-submit-chimp-mobile {
+.button-mobile {
   display: block;
   text-align: left;
   color: #fff;
@@ -5899,20 +5899,29 @@ input[type=button] {
   height: 50px;
   line-height: 50px;
 }
-.btn__first,
-.button__first,
-.epm-submit-chimp__first {
+.btn--first,
+.button--first {
   padding-left: 0;
 }
-.btn__last,
-.button__last,
-.epm-submit-chimp__last {
+.btn--last,
+.button--last {
   padding-right: 0;
 }
-.btn__full,
-.button__full,
-.epm-submit-chimp__full {
+.btn--full,
+.button--full {
   width: 100%;
+}
+.btn[class*=" ss-"]:before,
+.button[class*=" ss-"]:before {
+  position: relative;
+  top: .125em;
+  margin-right: 5px;
+}
+.btn[class*=" ss-"]:after,
+.button[class*=" ss-"]:after {
+  position: relative;
+  top: .125em;
+  margin-left: 5px;
 }
 .gform_wrapper {
   min-width: 100%;

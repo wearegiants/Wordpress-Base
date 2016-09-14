@@ -5,7 +5,6 @@
 <!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
 <head>
 <meta charset="utf-8">
-<title><?php bloginfo( 'sitename' ) ?></title>
 <link rel="shortcut icon" href="/assets/img/favicon.ico">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
@@ -21,20 +20,19 @@
 
 </head>
 
-<body class="fs-grid">
+<body class="fs-grid fs-grid-fluid">
   <div id="wrapper">
     <header id="header" class="header">
       <div class="fs-row">
-        <menu id="header-main" class="fs-cell fs-lg-4 fs-md-2 fs-sm-2">
+        <menu id="header-main" class="fs-cell fs-all-full">
           <a data-swap-target="#mobile-menu" class="mobile-toggle btn btn--hamburg btn--nav btn_first btn--last fs-lg-hide">&nbsp;</a>
           <a href="/" id="header--logo" class="btn btn--logo btn--nav btn--first"><?php bloginfo('name' );?></a>
+          <?php echo strip_tags(wp_nav_menu( $mainMenu ), '<a>' ); ?>
         </menu>
-        <menu id="header-navigation" class="fs-cell fs-lg-hide fs-md-hide fs-sm-hide text-right">
 
-<?php echo strip_tags(wp_nav_menu( $mainMenu ), '<a>' ); ?>
 <?php // include locate_template('parts/store/shopify--bag.php') ?>
 
-        </menu>
       </div>
     </header>
+
 

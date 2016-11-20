@@ -10,7 +10,7 @@ $settings = array(
   ),
 
   'default_scripts'        => array(
-    'smartajax',
+    //'smartajax',
     'plugins',
     'scripts',
   ),

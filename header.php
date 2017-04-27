@@ -20,7 +20,7 @@
 
 </head>
 
-<body class="fs-grid fs-grid-fluid">
+<body class="fs-grid">
   <div id="wrapper">
     <header id="header" class="header">
       <div class="fs-row">
@@ -29,9 +29,6 @@
           <a href="/" id="header--logo" class="btn btn--logo btn--nav btn--first"><?php bloginfo('name' );?></a>
           <?php echo strip_tags(wp_nav_menu( $mainMenu ), '<a>' ); ?>
         </menu>
-
-<?php // include locate_template('parts/store/shopify--bag.php') ?>
-
       </div>
     </header>
 

@@ -1,10 +1,19 @@
-<?php Themewrangler::setup_page();get_header(); ?>
+<?php 
+  Themewrangler::setup_page();get_header(); 
+  $thumb_id = get_post_thumbnail_id();
+  $thumb_url_array = wp_get_attachment_image_src($thumb_id, 'gallery-xl', true);
+  $thumb_url = $thumb_url_array[0];
+?>
 
 <article id="page" <?php post_class(); ?>>
-  <header class="hentry__header text-center">
-    <div class="hero hero relative bg--black wallpaper" data-background-options='{"source":"<?php echo $thumb_url; ?>"}'>
+  <header class="page-header">
+    <div class="hero relative bg--black wallpaper" data-background-options='{"source":"<?php echo $thumb_url; ?>"}'>
       <div class="centered">
-        <h1 class="hentry-title title--xl color--white"><?php the_title(); ?></h1>
+        <div class="fs-row">
+          <div class="fs-cell fs-all-full">
+            <h1 class="page-header__title color--white"><?php the_title(); ?></h1>
+          </div>
+        </div>
       </div>
     </div>
   </header>

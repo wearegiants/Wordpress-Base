@@ -22,11 +22,10 @@
 
 <body class="fs-grid">
   <div id="wrapper">
-    <header id="header" class="header">
+    <header id="nav" class="header">
       <div class="fs-row">
-        <menu id="header-main" class="fs-cell fs-all-full">
-          <a data-swap-target="#mobile-menu" class="mobile-toggle btn btn--hamburg btn--nav btn_first btn--last fs-lg-hide">&nbsp;</a>
-          <a href="/" id="header--logo" class="btn btn--logo btn--nav btn--first"><?php bloginfo('name' );?></a>
+        <menu id="nav-main" class="fs-cell fs-all-full">
+          <a href="/" id="nav-logo" class="btn--logo btn--nav btn--first"><?php bloginfo('name' );?></a>
           <?php echo strip_tags(wp_nav_menu( $mainMenu ), '<a>' ); ?>
         </menu>
       </div>

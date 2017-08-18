@@ -2710,6 +2710,12 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/attachment.php": {
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/attachment.php",
+		"oF": 0
+		},
 	"\/bower.json": {
 		"ft": 524288,
 		"oA": 1,

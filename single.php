@@ -15,7 +15,7 @@
     </div>
   </header>
   <hr class="invisible">
-  <div id="page-content" class="hentry__content">
+  <div class="page-content">
     <div class="fs-row">
       <div class="fs-cell fs-lg-8 fs-md-5 fs-sm-3">
         <?php the_post(); the_content(); ?>

@@ -5,7 +5,7 @@
   $thumb_url = $thumb_url_array[0];
 ?>
 
-<article id="page" <?php post_class(); ?>>
+<article <?php post_class('page'); ?>>
   <header class="page-header">
     <div class="hero relative bg--black wallpaper" data-background-options='{"source":"<?php echo $thumb_url; ?>"}'>
       <div class="centered">
@@ -18,7 +18,7 @@
     </div>
   </header>
   <hr class="invisible">
-  <div id="page-content" class="hentry__content">
+  <div class="page-content">
     <div class="fs-row">
       <div class="fs-cell fs-lg-8 fs-md-5 fs-sm-3">
         <?php the_post(); the_content(); ?>

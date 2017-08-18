@@ -1,3 +1,27 @@
+### 3.7.3: August 13th, 2017
+* Update method for removing recent commets widget styles ([#195](https://github.com/roots/soil/pull/195))
+* Remove dashboard widgets removal ([#192](https://github.com/roots/soil/pull/192))
+* Add `parent_theme_file_uri` to relative URLs ([#191](https://github.com/roots/soil/pull/191))
+* Fix SEO Framework social images ([#190](https://github.com/roots/soil/pull/190))
+
+### 3.7.2: June 11th, 2017
+* Don't apply relative URLs to SEO Framework's social image ([#184](https://github.com/roots/soil/pull/184))
+* Don't do `active` fix for CPT if no archive page ([#180](https://github.com/roots/soil/pull/180))
+* Prefetch code.jquery.com ([#177](https://github.com/roots/soil/pull/177))
+* Add `theme_file_uri` to relative URLs ([#176](https://github.com/roots/soil/pull/176))
+* Fix PHP warnings being thrown in development ([#172](https://github.com/roots/soil/pull/172))
+* Remove rel_canonical from clean-up module ([#169](https://github.com/roots/soil/pull/169))
+
+### 3.7.1: August 30th, 2016
+* Enable jQuery noConflict ([#160](https://github.com/roots/soil/issues/160))
+* Disable DNS Prefetch for WordPress Emoji (WP 4.6) ([#159](https://github.com/roots/soil/issues/159))
+
+### 3.7.0: March 7th, 2016
+* Use `home_url` in `root_relative_url` ([#147](https://github.com/roots/soil/issues/147))
+* Add relative URLs to responsive images output ([#146](https://github.com/roots/soil/issues/146))
+* Disable relative URLs in feeds ([#145](https://github.com/roots/soil/issues/145))
+* Switch from Google CDN to jQuery CDN ([#144](https://github.com/roots/soil/issues/144))
+
 ### 3.6.2: December 24th, 2015
 * Add missing oEmbed cleanup ([#134](https://github.com/roots/soil/issues/134))
 

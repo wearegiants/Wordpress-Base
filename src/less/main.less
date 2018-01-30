@@ -1,31 +1,16 @@
-@import 'vendor';
+// Import vendor files and variables
+@import 'vendor.less';
 
-// Style Config
-
-@import 'default/_setup';
-@import 'default/_base';
-@import 'default/_fonts';
-@import 'default/_type';
-@import 'default/_buttons';
-@import 'default/_hero';
-@import 'default/_modal';
-@import 'default/_pinned';
-@import 'default/_mixins';
-@import 'default/_header';
-
-// Site
-
-@import 'site/_scaffold';
-@import 'site/_nav';
+// Theme
+@import 'site/_base';
+@import 'site/_style';
+@import 'site/_header';
 @import 'site/_footer';
 
-@import 'site/_home';
-@import 'site/_page';
+// Templates
+@import 'site/_404';
+@import 'site/_article';
 @import 'site/_blog';
-@import 'site/_error';
-
-// Depreciated
-//@import 'default/_hentry';
-//@import 'default/_gforms';
-//@import 'default/_menu-mobile';
-//@import 'default/_widgets';
+@import 'site/_index';
+@import 'site/_page';
+@import 'site/_search';

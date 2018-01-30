@@ -11,11 +11,10 @@
 <?php wp_head(); ?>
 
 <!--[if lt IE 9]>
-<script src="/assets/js/app.ie.min.js"></script>
+<script src="/assets/app.ie.min.js"></script>
 <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 <![endif]-->
 
-<?php include_once locate_template('lib/config.fonts.php' ); ?>
 <?php include_once locate_template('lib/config.menus.php' ); ?>
 
 </head>

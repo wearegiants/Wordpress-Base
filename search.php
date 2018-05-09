@@ -1,4 +1,4 @@
-<?php Themewrangler::setup_page();get_header(); ?>
+<?php get_header(); ?>
 
 <div class="fs-row">
 <div class="fs-cell fs-all-full">

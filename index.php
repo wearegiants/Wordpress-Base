@@ -1,4 +1,4 @@
-<?php Themewrangler::setup_page();get_header(); ?>
+<?php get_header(); ?>
 
 <div class="fs-row">
 	<div class='fs-cell fs-lg-8 fs-md-6 fs-sm-3'>

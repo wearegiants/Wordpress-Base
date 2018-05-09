@@ -1,5 +1,4 @@
-<?php Themewrangler::setup_page();get_header(); ?>
-
+<?php get_header(); ?>
 <?php the_post(); ?>
 
 <article <?php post_class('page'); ?>>
